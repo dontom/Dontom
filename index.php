@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,6 +30,10 @@
 </head>
 
 <body>
+
+
+<!-- Google Analitics -->
+<?php include_once("analyticstracking.php") ?>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -170,31 +177,8 @@
     </header>
 
 
-    <!--&lt;!&ndash; Container fluid &ndash;&gt;-->
-    <!--<div id="info-dontom" class="container-fluid" style="background-color: #353535;">-->
-        <!--&lt;!&ndash; Page Content &ndash;&gt;-->
-        <!--<div class="container">-->
-
-            <!--<div class="row">-->
-                <!--<div class="col-lg-12">-->
-                    <!--<h1>Dontom</h1>-->
-                    <!--<h2>Frontend developer & e-commmerce fan</h2>-->
-                    <!--<article>Hi! I'm frontend developer working in <a href="http://winalife.pl/" target="_blank">Winalife Company</a> and-->
-                    <!--many other web projects. What's more I'm deep in e-commerce tools and projects management. My hobby is widely understood-->
-                    <!--sport life style, especially running, windsurfing and beach volleyball. This webside is created not only for my personal-->
-                    <!--use but also for everybody, who are interted in  variuos front-end techniques and plugins.</article>-->
-                <!--</div>-->
-            <!--</div>-->
-
-            <!--<hr>-->
-
-        <!--</div>-->
-        <!--&lt;!&ndash; /.container &ndash;&gt;-->
-    <!--</div>-->
-    <!--&lt;!&ndash; ./container fluid &ndash;&gt;-->
-
     <!-- Container fluid -->
-    <div id="contact-form" class="container-fluid" style="background-color: #353535;">
+    <div id="contact-form" class="container-fluid">
         <!-- Page Content -->
         <div class="container">
 
@@ -206,12 +190,11 @@
                     <h2>Frontend developer & e-commerce geek</h2>
                     <article>Hi! I'm frontend developer working in <a href="http://winalife.pl/" target="_blank">Winalife Company</a> and
                         many other web projects. What's more I'm deep in e-commerce tools and projects management. My hobby is widely understood
-                        sport life style, especially running, windsurfing and beach volleyball. This webside is created not only for my personal
+                        sport life style, especially running, windsurfing and beach volleyball. This webside was created not only for my personal
                         use but also for everybody, who are interted in  variuos front-end techniques and plugins.
                     </article>
                      </div>
             </div>
-
 
         </div>
         <!-- /.container -->
