@@ -147,12 +147,62 @@ footer p {
     width: 170px;
     height: 98.15px;
     margin: 33.07px 15px;
-    background-image: url(http://csshexagon.com/img/meow.jpg);
+    background-color: #fff;
     background-size: auto 184.7521px;
     background-position: center;
     box-shadow: 0 0 30px rgba(0,0,0,0.75);
     border-left: solid 5px #333333;
     border-right: solid 5px #333333;
+}
+#hexa1 {
+    background-image: url(../img/html5.jpg)!important;
+}
+#hexa2 {
+    background-image: url(../img/css3.jpg)!important;
+}
+#hexa3 {
+    background-image: url(../img/bootstrap.jpg)!important;
+}
+#hexa4 {
+    background-image: url(../img/googlefonts.jpg)!important;
+}
+#hexa5 {
+    background-image: url(../img/rwd.jpg)!important;
+}
+#hexa6 {
+    background-image: url(../img/gimp.jpg)!important;
+}
+#hexa7 {
+    background-image: url(../img/htmlemails.jpg)!important;
+}
+#hexa8 {
+    background-image: url(../img/php.jpg)!important;
+}
+#hexa9 {
+    background-image: url(../img/ga.jpg)!important;
+}
+#hexa10 {
+    background-image: url(../img/test.jpg)!important;
+}
+#hexa11 {
+    background-image: url(../img/seo.jpg)!important;
+}
+#hexa12 {
+    background-image: url(../img/git.jpg)!important;
+}
+#hexa13 {
+    background-image: url(../img/knowledge.jpg)!important;
+}
+
+.h1-center {
+    text-align: center;
+}
+.item .level {
+    margin-top: 50px;
+    margin-bottom: -40px;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 .hexTop,

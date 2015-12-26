@@ -85,63 +85,65 @@
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
-
+                <div class="h1-center">
+                    <h1 class="level">Level I</h1>
+                </div>
                 <div class="container" style="margin-top: 70px;">
-                    <a href="#"><div class="hexagon col-md-4" style="margin-left:180px;">
+                    <a href="#"><div id="hexa1" class="hexagon col-md-4" style="margin-left:180px;">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
-                    <a href="#"><div class="hexagon col-md-4">
+                    <a href="#"><div id="hexa2" class="hexagon col-md-4">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
-                    <a href="#"><div class="hexagon col-md-4">
+                    <a href="#"><div id="hexa3" class="hexagon col-md-4">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
-                    <a href="#"><div class="hexagon col-md-4">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                </div>
-
-                <div class="container">
-                    <a href="#"><div class="hexagon col-md-5" style="margin-left:79px;">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div class="hexagon col-md-5">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div class="hexagon col-md-5">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div class="hexagon col-md-5">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div class="hexagon col-md-5">
+                    <a href="#"><div id="hexa4" class="hexagon col-md-4">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
                 </div>
 
                 <div class="container">
-                    <a href="#"><div class="hexagon col-md-4" style="margin-left:180px;">
+                    <a href="#"><div id="hexa5" class="hexagon col-md-5" style="margin-left:79px;">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
-                    <a href="#"><div class="hexagon col-md-4">
+                    <a href="#"><div id="hexa6" class="hexagon col-md-5">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
-                    <a href="#"><div class="hexagon col-md-4">
+                    <a href="#"><div id="hexa7" class="hexagon col-md-5">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
-                    <a href="#"><div class="hexagon col-md-4">
+                    <a href="#"><div id="hexa8" class="hexagon col-md-5">
+                        <div class="hexTop"></div>
+                        <div class="hexBottom"></div>
+                    </div></a>
+                    <a href="#"><div id="hexa9" class="hexagon col-md-5">
+                        <div class="hexTop"></div>
+                        <div class="hexBottom"></div>
+                    </div></a>
+                </div>
+
+                <div class="container">
+                    <a href="#"><div id="hexa10" class="hexagon col-md-4" style="margin-left:180px;">
+                        <div class="hexTop"></div>
+                        <div class="hexBottom"></div>
+                    </div></a>
+                    <a href="#"><div id="hexa11" class="hexagon col-md-4">
+                        <div class="hexTop"></div>
+                        <div class="hexBottom"></div>
+                    </div></a>
+                    <a href="#"><div id="hexa12" class="hexagon col-md-4">
+                        <div class="hexTop"></div>
+                        <div class="hexBottom"></div>
+                    </div></a>
+                    <a href="#"><div id="hexa13" class="hexagon col-md-4">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>

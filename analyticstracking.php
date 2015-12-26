@@ -8,3 +8,6 @@
     ga('send', 'pageview');
 
 </script>
+
+
+<!--https://toddmotto.com/how-to-utilise-google-analytics-onclick-tracking/-->
