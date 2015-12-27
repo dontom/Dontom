@@ -88,8 +88,8 @@
                 <div class="h1-center">
                     <h1 class="level">Level I</h1>
                 </div>
-                <div class="container" style="margin-top: 70px;">
-                    <a href="#"><div id="hexa1" class="hexagon col-md-4" style="margin-left:180px;">
+                <div id="container" class="container">
+                    <a href="#"><div id="hexa1" class="hexagon col-md-4">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
@@ -108,7 +108,7 @@
                 </div>
 
                 <div class="container">
-                    <a href="#"><div id="hexa5" class="hexagon col-md-5" style="margin-left:79px;">
+                    <a href="#"><div id="hexa5" class="hexagon col-md-5">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>

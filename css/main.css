@@ -35,7 +35,7 @@ a:hover {
 footer {
     margin: -20px 0 0 0;
     padding: 30px;
-    color: #C9C9C9;
+    color: #C9C9C9; 
     font-size: 13px;
     line-height: 1.8em;
 }
@@ -46,8 +46,9 @@ footer span {
 #contact-form img {
     width: 50px ;
 }
+
 footer p {
-    margin: 17px 0px 10px;
+    margin: 17px 0 10px;
     color: #fff;
     font-size: 1.4em;
 }
@@ -90,6 +91,15 @@ footer p {
     left: 50%;
     bottom: -40px;
     margin-left: -45px;
+}
+
+
+.h1-center {
+    text-align: center;
+    margin-top: 50px;
+}
+.level {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 /* LOGO WINALIFE */
@@ -141,26 +151,14 @@ footer p {
 
 
 
-/************   Hexagon   ************/
-.hexagon {
-    position: relative;
-    width: 170px;
-    height: 98.15px;
-    margin: 33.07px 15px;
-    background-color: #fff;
-    background-size: auto 184.7521px;
-    background-position: center;
-    box-shadow: 0 0 30px rgba(0,0,0,0.75);
-    border-left: solid 5px #333333;
-    border-right: solid 5px #333333;
-}
-#hexa1 {
+
+#hexa2 {
     background-image: url(../img/html5.jpg)!important;
 }
-#hexa2 {
+#hexa10 {
     background-image: url(../img/css3.jpg)!important;
 }
-#hexa3 {
+#hexa9 {
     background-image: url(../img/bootstrap.jpg)!important;
 }
 #hexa4 {
@@ -169,100 +167,230 @@ footer p {
 #hexa5 {
     background-image: url(../img/rwd.jpg)!important;
 }
-#hexa6 {
+#hexa1 {
     background-image: url(../img/gimp.jpg)!important;
-}
-#hexa7 {
-    background-image: url(../img/htmlemails.jpg)!important;
-}
-#hexa8 {
-    background-image: url(../img/php.jpg)!important;
-}
-#hexa9 {
-    background-image: url(../img/ga.jpg)!important;
-}
-#hexa10 {
-    background-image: url(../img/test.jpg)!important;
-}
-#hexa11 {
-    background-image: url(../img/seo.jpg)!important;
+    margin-left:180px;
 }
 #hexa12 {
+    background-image: url(../img/htmlemails.jpg)!important;
+}
+#hexa7 {
+    background-image: url(../img/php.jpg)!important;
+}
+#hexa3 {
+    background-image: url(../img/ga.jpg)!important;
+}
+#hexa11 {
+    background-image: url(../img/test.jpg)!important;
+}
+#hexa6 {
+    background-image: url(../img/seo.jpg)!important;
+}
+#hexa8 {
     background-image: url(../img/git.jpg)!important;
 }
 #hexa13 {
     background-image: url(../img/knowledge.jpg)!important;
 }
 
-.h1-center {
-    text-align: center;
+
+
+
+
+/*
+**********   MEDIA QUERIES - HExagons  *************
+*/
+/* http://csshexagon.com/ */ /* HEXAGON */
+/* http://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */ /*MEDIA QUERIES*/
+
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+
 }
-.item .level {
-    margin-top: 50px;
-    margin-bottom: -40px;
-    font-size: 3em;
-    font-weight: bold;
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+    .hexagon {
+        position: relative;
+        width: 120px;
+        height: 69.28px;
+        margin: 34.64px 15px;
+        background-image: url(http://csshexagon.com/img/meow.jpg);
+        background-size: auto 138.5641px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 84.85px;
+        height: 84.85px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 17.57px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 120.0000px;
+        height: 69.2820323027551px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+
+    .hexTop {
+        top: -42.4264px;
+    }
+
+    .hexTop:after {
+        background-position: center top;
+    }
+
+    .hexBottom {
+        bottom: -42.4264px;
+    }
+
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 0.0000px;
+        left: 0;
+        width: 120.0000px;
+        height: 69.2820px;
+        z-index: 2;
+        background: inherit;
+    }
+    #container {
+        margin-top: 20px;
+    }
+    #hexa5 {
+        margin-left:104px;
+    }
+    .carousel {
+        height: 600px;
+    }
 }
 
-.hexTop,
-.hexBottom {
-    position: absolute;
-    z-index: 1;
-    width: 120.21px;
-    height: 120.21px;
-    overflow: hidden;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background: inherit;
-    left: 19.90px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.75);
-}
 
-/*counter transform the bg image on the caps*/
-.hexTop:after,
-.hexBottom:after {
-    content: "";
-    position: absolute;
-    width: 160.0000px;
-    height: 92.37604307034013px;
-    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
-    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
-    transform:          rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
-    -webkit-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    transform-origin: 0 0;
-    background: inherit;
-}
 
-.hexTop {
-    top: -60.1041px;
-    border-top: solid 7.0711px #333333;
-    border-right: solid 7.0711px #333333;
-}
 
-.hexTop:after {
-    background-position: center top;
-}
 
-.hexBottom {
-    bottom: -60.1041px;
-    border-bottom: solid 7.0711px #333333;
-    border-left: solid 7.0711px #333333;
-}
 
-.hexBottom:after {
-    background-position: center bottom;
-}
 
-.hexagon:after {
-    content: "";
-    position: absolute;
-    top: 2.8868px;
-    left: 0;
-    width: 160.0000px;
-    height: 92.3760px;
-    z-index: 2;
-    background: inherit;
+@media (min-width:1200px) { /* hi-res laptops and desktops */
+    /************   Hexagon   ************/
+    .hexagon {
+        position: relative;
+        width: 170px;
+        height: 98.15px;
+        margin: 33.07px 15px;
+        background-color: #fff;
+        background-size: auto 184.7521px;
+        background-position: center;
+        box-shadow: 0 0 30px rgba(0,0,0,0.75);
+        border-left: solid 5px #333333;
+        border-right: solid 5px #333333;
+    }
+    .item .level {
+        margin-top: 50px;
+        margin-bottom: -40px;
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 120.21px;
+        height: 120.21px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 19.90px;
+        box-shadow: 0 0 30px rgba(0,0,0,0.75);
+    }
+
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 160.0000px;
+        height: 92.37604307034013px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+
+    .hexTop {
+        top: -60.1041px;
+        border-top: solid 7.0711px #333333;
+        border-right: solid 7.0711px #333333;
+    }
+
+    .hexTop:after {
+        background-position: center top;
+    }
+
+    .hexBottom {
+        bottom: -60.1041px;
+        border-bottom: solid 7.0711px #333333;
+        border-left: solid 7.0711px #333333;
+    }
+
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 2.8868px;
+        left: 0;
+        width: 160.0000px;
+        height: 92.3760px;
+        z-index: 2;
+        background: inherit;
+    }
+
+    #container {
+        margin-top: 80px;
+    }
+    #hexa5 {
+        margin-left:80px;
+    }
+    .carousel {
+        height: 715px;
+    }
 }
