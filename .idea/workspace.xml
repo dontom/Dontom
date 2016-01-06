@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ca95a6-fdb4-480d-a8c8-c04bd55f0fde" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\bootstrap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\css3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\ga.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\gimp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\git.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\googlefonts.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\html5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\htmlemails.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\knowledge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\php.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\rwd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\seo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\balls\test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\bootstrap.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\css3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\ga.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\gimp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\git.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\googlefonts.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\html5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\htmlemails.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\knowledge.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\php.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\rwd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\seo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\Dontom\Dontom\img\sticks\test.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dontom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,14 +23,14 @@
     <favorites_list name="Dontom" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.86339444">
+    <splitter split-orientation="horizontal" split-proportion="0.3006431">
       <split-first>
         <leaf>
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5721212">
-                  <caret line="198" column="30" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.23878787">
+                  <caret line="187" column="148" selection-start-line="187" selection-start-column="148" selection-end-line="187" selection-end-column="148" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -73,8 +45,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4854369">
-                  <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+                <state vertical-scroll-proportion="0.4235437">
+                  <caret line="222" column="25" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -103,8 +75,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/analyticstracking.php" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -705,14 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4854369">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/smoothscroll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.079161815">
@@ -723,11 +687,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5721212">
-          <caret line="198" column="30" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.23878787">
+          <caret line="187" column="148" selection-start-line="187" selection-start-column="148" selection-end-line="187" selection-end-column="148" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4235437">
+          <caret line="222" column="25" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
