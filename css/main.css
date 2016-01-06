@@ -102,6 +102,11 @@ footer p {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+
+.ball_wrap div:hover {
+    opacity: .8;
+}
+
 /* LOGO WINALIFE */
 #contact-form h1 a {
     display: block;
@@ -111,6 +116,7 @@ footer p {
     text-indent: -9999px;
     float: right;
     margin-right: 20px;
+    margin-left: 15px;
 }
 
 /************   Header   ************/
@@ -150,77 +156,727 @@ footer p {
 }
 
 
+/************   Footer   ************/
+footer {
+    background-color: #222;
+}
+
+footer .col-lg-12 {
+    text-align: center;
+}
+footer a img {
+    width: 170px;
+    height: 25px;
+}
 
 
 #hexa2 {
-    background-image: url(../img/html5.jpg)!important;
+    background-image: url(../img/hexagons/html5.jpg)!important;
 }
 #hexa10 {
-    background-image: url(../img/css3.jpg)!important;
+    background-image: url(../img/hexagons/css3.jpg)!important;
 }
 #hexa9 {
-    background-image: url(../img/bootstrap.jpg)!important;
+    background-image: url(../img/hexagons/bootstrap.jpg)!important;
 }
 #hexa4 {
-    background-image: url(../img/googlefonts.jpg)!important;
+    background-image: url(../img/hexagons/googlefonts.jpg)!important;
 }
 #hexa5 {
-    background-image: url(../img/rwd.jpg)!important;
+    background-image: url(../img/hexagons/rwd.jpg)!important;
 }
 #hexa1 {
-    background-image: url(../img/gimp.jpg)!important;
-    margin-left:180px;
+    background-image: url(../img/hexagons/gimp.jpg)!important;
 }
 #hexa12 {
-    background-image: url(../img/htmlemails.jpg)!important;
+    background-image: url(../img/hexagons/htmlemails.jpg)!important;
 }
 #hexa7 {
-    background-image: url(../img/php.jpg)!important;
+    background-image: url(../img/hexagons/php.jpg)!important;
 }
 #hexa3 {
-    background-image: url(../img/ga.jpg)!important;
+    background-image: url(../img/hexagons/ga.jpg)!important;
 }
 #hexa11 {
-    background-image: url(../img/test.jpg)!important;
+    background-image: url(../img/hexagons/test.jpg)!important;
 }
 #hexa6 {
-    background-image: url(../img/seo.jpg)!important;
+    background-image: url(../img/hexagons/seo.jpg)!important;
 }
 #hexa8 {
-    background-image: url(../img/git.jpg)!important;
+    background-image: url(../img/hexagons/git.jpg)!important;
 }
 #hexa13 {
-    background-image: url(../img/knowledge.jpg)!important;
+    background-image: url(../img/hexagons/knowledge.jpg)!important;
 }
 
 
+
+.hex1 {
+    background-image: url(../img/balls/gimp.jpg)!important;
+    height: 60px;
+}
+.hex1 a {
+    display: block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.hex2 {
+    background-image: url(../img/balls/html5.jpg)!important;
+    height: 60px;
+}
+.hex2 a {
+     display: block;
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+}
+.hex3 {
+    background-image: url(../img/balls/ga.jpg)!important;
+    height: 60px;
+}
+.hex3 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex4 {
+    background-image: url(../img/balls/googlefonts.jpg)!important;
+    height: 60px;
+}
+.hex4 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex5 {
+    background-image: url(../img/balls/rwd.jpg) !important;
+    height: 60px;
+}
+.hex5 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex6 {
+    background-image: url(../img/balls/seo.jpg)!important;
+    height: 60px;
+}
+.hex6 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex7 {
+    background-image: url(../img/balls/php.jpg)!important;
+    height: 60px;
+}
+.hex7 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex8 {
+    background-image: url(../img/balls/git.jpg)!important;
+    height: 60px;
+}
+.hex8 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex9 {
+    background-image: url(../img/balls/bootstrap.jpg)!important;
+    height: 60px;
+}
+.hex9 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex10 {
+    background-image: url(../img/balls/css3.jpg)!important;
+    height: 60px;
+}
+.hex10 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex11 {
+    background-image: url(../img/balls/test.jpg)!important;
+    height: 60px;
+}
+.hex11 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex12 {
+    background-image: url(../img/balls/htmlemails.jpg)!important;
+    height: 60px;
+}
+.hex12 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.hex13 {
+    background-image: url(../img/balls/knowledge.jpg)!important;
+    height: 60px;
+}
+.hex13 a {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 
 
 
 /*
-**********   MEDIA QUERIES - HExagons  *************
+**********   MEDIA QUERIES - Hexagons  *************
 */
 /* http://csshexagon.com/ */ /* HEXAGON */
 /* http://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */ /*MEDIA QUERIES*/
 
-@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width: 480px) { /* (min-width:320px) and smartphones, iPhone, portrait 480x320 phones */
+    .carousel-inner .big {
+        display: none;
+    }
+    .carousel-inner .small {
+        display: none;
+    }
+    .carousel-inner .mini {
+        display:block;
+    }
+    .carousel {
+        height: 850px;
+    }
+    .container .col-sm-6 {
+        padding: 10px;
+    }
+    .nav > li > a > img {
+        max-width: none;
+        display: none;
+    }
+    .specials::after {
+        content: "";
+        display: none;
+    }
+    #contact-form h1 a {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 0.9em;
+    }
+
+    .mini img {
+        width: 100%;
+        height: 40px;
+        margin: 5px;
+        box-shadow: 1px 3px 5px #888888;
+    }
+    .mini img:hover {
+        opacity: .8;
+    }
+    .nav > li {
+        margin-left: 0;
+    }
+    .nav > li:first-child {
+         margin-left: 10px;
+     }
+
+    .item .level {
+        margin-top: -40px;
+        margin-bottom: 20px;
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+}
+
+
+
+
+
+@media (min-width:481px) and (max-width: 767px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .carousel-inner .big {
+        display: none;
+    }
+    .carousel-inner .small {
+        display: none;
+    }
+    .carousel-inner .mini {
+        display:block;
+    }
+    .carousel {
+        height: 850px;
+    }
+    .container .col-sm-6 {
+        padding: 10px;
+    }
+
+    .mini img {
+        width: 100%;
+        height: 40px;
+        margin: 5px;
+        box-shadow: 1px 3px 5px #888888;
+    }
+    .mini img:hover {
+        opacity: .8;
+    }
+
+    .item .level {
+        margin-top: -40px;
+        margin-bottom: 20px;
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+
+    .nav > li {
+        margin-left: 0;
+    }
+    .nav > li:first-child {
+        margin-left: 65px;
+    }
+}
+/*@media (min-width:641px) {*/
+    /*.carousel-inner .big {*/
+        /*display: block;*/
+    /*}*/
+    /*.carousel-inner .small {*/
+        /*display: block;*/
+    /*}*/
+    /*.carousel {*/
+        /*height: 750px;*/
+    /*}*/
+    /*.container .col-sm-6 {*/
+        /*padding: 10px;*/
+    /*}*/
+/*}*/
+
+@media (min-width:768px) and (max-width: 991px) { /* (min-width:768px) */
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .carousel-inner .big {
+        display: none;
+    }
+    .carousel-inner .mini {
+        display: none;
+    }
+    .carousel-inner .small {
+        display: block;
+    }
+    .carousel {
+        height: 800px;
+    }
+    .container .col-sm-6 {
+        padding: 10px;
+    }
+
+    .item .level {
+        margin-top: 50px;
+        margin-bottom: 60px;
+        font-size: 5em;
+        font-weight: bold;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+
+    .ball_wrap {
+        position: relative;
+        margin: 150px;
+        width: auto;
+        margin-top: 200px;
+    }
+
+    .blue_ball {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        border: 3px solid #000;
+        margin: auto;
+    }
+
+    .green_ball {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 3px solid #000;
+        position: absolute;
+    }
+
+
+    /*1.00*/
+    .ball_wrap div:nth-of-type(6) {
+        margin: auto;
+        top: -200px;
+        right: 40px;
+    }
+    .ball_wrap div:nth-of-type(6):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 135px;
+        left: -11px;
+        top: 82px;
+        -ms-transform: rotate(34deg); /* IE 9 */
+        -webkit-transform: rotate(34deg); /* Chrome, Safari, Opera */
+        transform: rotate(34deg);
+    }
+
+
+    /*2.00*/
+    .ball_wrap div:nth-of-type(7) {
+        margin: auto;
+        top: -115px;
+        left: 372px;
+    }
+    .ball_wrap div:nth-of-type(7):after {
+            content: "";
+            display: block;
+            border-left: 3px solid #000;
+            position: absolute;
+            height: 140px;
+            left: -52px;
+            top: 43px;
+            -ms-transform: rotate(60deg); /* IE 9 */
+            -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+            transform: rotate(60deg);
+    }
+
+
+    /*3.00*/
+    .ball_wrap div:nth-of-type(3) {
+        margin: auto;
+        top: 10px;
+        left: 412px;
+    }
+    .ball_wrap div:nth-of-type(3):after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #000;
+        position: absolute;
+        width: 145px;
+        left: -145px;
+        top: 50%;
+    }
+
+
+    /*4.00*/
+    .ball_wrap div:nth-of-type(8) {
+        margin: auto;
+        top: 133px;
+        right:-52px;
+    }
+    .ball_wrap div:nth-of-type(8):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 138px;
+        left: -55px;
+        top: -80px;
+        -ms-transform: rotate(-57deg); /* IE 9 */
+        -webkit-transform: rotate(-57deg); /* Chrome, Safari, Opera */
+        transform: rotate(-57deg);
+    }
+
+
+    /*5.00*/
+    .ball_wrap div:nth-of-type(9) {
+        margin: auto;
+        top: 220px;
+        right: 40px;
+    }
+    .ball_wrap div:nth-of-type(9):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 135px;
+        left: -12px;
+        top: -121px;
+        -ms-transform: rotate(-34deg); /* IE 9 */
+        -webkit-transform: rotate(34deg); /* Chrome, Safari, Opera */
+        transform: rotate(-34deg);
+    }
+
+
+    /*6.00*/
+    .ball_wrap div:nth-of-type(4) {
+        margin: auto;
+        top: 260px;
+        right: 163px;
+    }
+    .ball_wrap div:nth-of-type(4):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 145px;
+        left: 47%;
+        top: -145px;
+    }
+
+
+    /*7.00*/
+    .ball_wrap div:nth-of-type(13) {
+        margin: auto;
+        top: 220px;
+        left: 38px;
+    }
+    .ball_wrap div:nth-of-type(13):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 135px;
+        right: -8px;
+        top: -122px;
+        -ms-transform: rotate(34deg); /* IE 9 */
+        -webkit-transform: rotate(34deg); /* Chrome, Safari, Opera */
+        transform: rotate(34deg);
+    }
+
+    /*8.00*/
+    .ball_wrap div:nth-of-type(12) {
+        margin: auto;
+        top: 133px;
+        right: 372px;
+    }
+    .ball_wrap div:nth-of-type(12):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 135px;
+        left: 148px;
+        top: -80px;
+        -ms-transform: rotate(57deg); /* IE 9 */
+        -webkit-transform: rotate(57deg); /* Chrome, Safari, Opera */
+        transform: rotate(57deg);
+    }
+
+
+
+    /*9.00*/
+    .ball_wrap div:nth-of-type(2) {
+        margin: auto;
+        top: 10px;
+        left: -90px;
+    }
+    .ball_wrap div:nth-of-type(2):after {
+        content: "";
+        display: block;
+        border-bottom: 3px solid #000;
+        position: absolute;
+        width: 145px;
+        right: -145px;
+        top: 50%;
+    }
+
+
+    /*10.00*/
+    .ball_wrap div:nth-of-type(11) {
+        margin: auto;
+        top: -115px;
+        right: 372px;
+    }
+    .ball_wrap div:nth-of-type(11):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 140px;
+        left: 143px;
+        top:46px;
+        -ms-transform: rotate(-60deg); /* IE 9 */
+        -webkit-transform: rotate(-60deg); /* Chrome, Safari, Opera */
+        transform: rotate(-60deg);
+    }
+
+
+    /*11.00*/
+    .ball_wrap div:nth-of-type(10) {
+        margin: auto;
+        top: -200px;
+        right: 285px;
+    }
+    .ball_wrap div:nth-of-type(10):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 136px;
+        left: 104px;
+        top: 82px;
+        -ms-transform: rotate(-34deg); /* IE 9 */
+        -webkit-transform: rotate(-34deg); /* Chrome, Safari, Opera */
+        transform: rotate(-34deg);
+    }
+
+
+
+    /*12.00*/
+    .ball_wrap div:nth-of-type(5) {
+        margin: auto;
+        top: -240px;
+        right: 163px;
+    }
+    .ball_wrap div:nth-of-type(5):after {
+        content: "";
+        display: block;
+        border-left: 3px solid #000;
+        position: absolute;
+        height: 145px;
+        left: 47%;
+        top: 95px;
+    }
 
 }
-@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
-}
-@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
-}
-@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
 
+
+
+
+
+
+@media (min-width:992px) and (max-width: 1199px) { /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
+    .carousel-inner .big {
+        display: block;
+    }
+    .carousel-inner .small {
+         display:none;
+    }
+    .carousel-inner .mini {
+        display:none;
+    }
+    .hexagon {
+        position: relative;
+        width: 100px;
+        height: 57.74px;
+        margin: 20.87px 15px;
+        background-image: url(http://csshexagon.com/img/meow.jpg);
+        background-size: auto 115.4701px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 70.71px;
+        height: 70.71px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 14.64px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 100.0000px;
+        height: 57.73502691896258px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+
+    .hexTop {
+        top: -35.3553px;
+    }
+
+    .hexTop:after {
+        background-position: center top;
+    }
+
+    .hexBottom {
+        bottom: -35.3553px;
+    }
+
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 0.0000px;
+        left: 0;
+        width: 100.0000px;
+        height: 57.7350px;
+        z-index: 2;
+        background: inherit;
+    }
+    #container {
+        margin-top: 20px;
+    }
+    #hexa5 {
+        margin-left:155px;
+    }
+    #hexa1 {
+        margin-left: 220px;
+    }
+    #hexa10 {
+        margin-left: 220px;
+    }
+    .carousel {
+        height: 500px;
+    }
+    .item .level {
+         margin-top: 50px;
+         margin-bottom: 30px;
+         font-size: 3em;
+         font-weight: bold;
+         font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+     }
 }
+
+
+
+
+
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+    .carousel-inner .big {
+        display: block;
+    }
+    .carousel-inner .small {
+        display:none;
+    }
+    .carousel-inner .mini {
+        display:none;
+    }
     .hexagon {
         position: relative;
         width: 120px;
         height: 69.28px;
-        margin: 34.64px 15px;
+        margin: 24.64px 15px;
         background-image: url(http://csshexagon.com/img/meow.jpg);
         background-size: auto 138.5641px;
         background-position: center;
@@ -286,11 +942,24 @@ footer p {
     #container {
         margin-top: 20px;
     }
+    #hexa1 {
+        margin-left: 180px;
+    }
+    #hexa10 {
+        margin-left: 180px;
+    }
     #hexa5 {
         margin-left:104px;
     }
     .carousel {
         height: 600px;
+    }
+    .item .level {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     }
 }
 
@@ -302,6 +971,15 @@ footer p {
 
 @media (min-width:1200px) { /* hi-res laptops and desktops */
     /************   Hexagon   ************/
+    .carousel-inner .big {
+        display: block;
+    }
+    .carousel-inner .small {
+        display:none;
+    }
+    .carousel-inner .mini {
+        display:none;
+    }
     .hexagon {
         position: relative;
         width: 170px;
@@ -386,6 +1064,12 @@ footer p {
 
     #container {
         margin-top: 80px;
+    }
+    #hexa1 {
+        margin-left: 180px;
+    }
+    #hexa10 {
+        margin-left: 180px;
     }
     #hexa5 {
         margin-left:80px;

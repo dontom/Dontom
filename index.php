@@ -20,6 +20,9 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
 
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -51,18 +54,12 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav specials">
-                    <!--<li>-->
-                        <!--<a href="#">PORTFOLIO</a>-->
-                    <!--</li>-->
                     <li>
                         <a href="#contact-form">ABOUT</a>
                     </li>
                     <li>
                         <a href="#"><img src="img/logo.png"></a>
                     </li>
-                    <!--<li>-->
-                        <!--<a href="#">BLOG</a>-->
-                    <!--</li>-->
                     <li>
                         <a href="#contact-form">GET IN TOUCH</a>
                     </li>
@@ -84,7 +81,7 @@
 
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
-            <div class="item active">
+            <div class="item active big">
                 <div class="h1-center">
                     <h1 class="level">Level I</h1>
                 </div>
@@ -131,7 +128,7 @@
                 </div>
 
                 <div class="container">
-                    <a href="#"><div id="hexa10" class="hexagon col-md-4" style="margin-left:180px;">
+                    <a href="#"><div id="hexa10" class="hexagon col-md-4"">
                         <div class="hexTop"></div>
                         <div class="hexBottom"></div>
                     </div></a>
@@ -152,6 +149,60 @@
                 <div class="fill"></div>
                 <div class="carousel-caption"></div>
             </div>
+
+
+            <!--Small-->
+            <div class="item active small">
+                <div class="h1-center">
+                    <h1 class="level">Level I</h1>
+                </div>
+                <div class="container">
+                    <div class="ball_wrap">
+                        <div class="blue_ball hex1"><a href="#"></a></div>
+                        <div class="green_ball hex2"><a href="#"></a></div>
+                        <div class="green_ball hex3"><a href="#"></a></div>
+                        <div class="green_ball hex4"><a href="#"></a></div>
+                        <div class="green_ball hex5"><a href="#"></a></div>
+                        <div class="green_ball hex6"><a href="#"></a></div>
+                        <div class="green_ball hex7"><a href="#"></a></div>
+                        <div class="green_ball hex8"><a href="#"></a></div>
+                        <div class="green_ball hex9"><a href="#"></a></div>
+                        <div class="green_ball hex10"><a href="#"></a></div>
+                        <div class="green_ball hex11"><a href="#"></a></div>
+                        <div class="green_ball hex12"><a href="#"></a></div>
+                        <div class="green_ball hex13"><a href="#"></a></div>
+                    </div>
+                </div>
+                <div class="fill"></div>
+                <div class="carousel-caption"></div>
+            </div>
+
+        <!--MINI-->
+        <div class="item active mini">
+            <div class="h1-center">
+                <h1 class="level">Level I</h1>
+            </div>
+            <div class="container">
+                <div class="ball_wrap">
+                    <div><a href="#"><img src="img/sticks/html5.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/bootstrap.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/css3.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/ga.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/gimp.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/git.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/googlefonts.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/htmlemails.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/knowledge.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/php.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/rwd.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/seo.jpg"></a></div>
+                    <div><a href="#"><img src="img/sticks/test.jpg"></a></div>
+                </div>
+            </div>
+            <div class="fill"></div>
+            <div class="carousel-caption"></div>
+        </div>
+
             <!--<div class="item">-->
                 <!--&lt;!&ndash; Set the second background image using inline CSS below. &ndash;&gt;-->
                 <!--<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>-->
@@ -183,21 +234,19 @@
     <div id="contact-form" class="container-fluid">
         <!-- Page Content -->
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-12">
                     <h1><a href="http://winalife.pl/" target="_blank">Winalife</a></h1>
                     <a id="github" href="https://github.com/dontom" target="_blank" style="float: left;margin: -5px 10px 0 0;"><img src="img/github.png" alt="github"></a>
                     <h1>Dontom</h1>
-                    <h2>Frontend developer & e-commerce geek</h2>
+                    <h2>Java Script Developer</h2>
                     <article>Hi! I'm frontend developer working in <a href="http://winalife.pl/" target="_blank">Winalife Company</a> and
                         many other web projects. What's more I'm deep in e-commerce tools and projects management. My hobby is widely understood
                         sport life style, especially running, windsurfing and beach volleyball. This webside was created not only for my personal
-                        use but also for everybody, who are interted in  variuos front-end techniques and plugins.
+                        use but also for everybody, who are interted in variuos front-end techniques and plugins.
                     </article>
-                     </div>
+                </div>
             </div>
-
         </div>
         <!-- /.container -->
     </div>
@@ -205,10 +254,10 @@
 
 
     <!-- Footer -->
-    <footer class="container-fluid" style="background-color: #222;">
+    <footer class="container-fluid">
         <div class="row">
-            <div class="col-lg-12"  style="text-align: center">
-                <p>&copy; All rights reserved | Made by <a href="http://winalife.pl/" target="_blank">Winalife</a> </p>
+            <div class="col-lg-12">
+                <p>&copy; All rights reserved | Made by <a href="http://winalife.pl/" target="_blank"><img src="img/winalife.png"></a> </p>
             </div>
         </div>
         <!-- /.row -->
