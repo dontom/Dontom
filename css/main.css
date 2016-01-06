@@ -759,14 +759,9 @@ footer a img {
 
 @media (min-width:1200px) { /* hi-res laptops and desktops */
     /************   Hexagon   ************/
-    .carousel-inner .big {
-        display: block;
-    }
-    .carousel-inner .small {
-        display:none;
-    }
-    .carousel-inner .mini {
-        display:none;
+    #contact-form img {
+        width: 50px ;
+        margin-top: 16px;
     }
     .hexagon {
         position: relative;
