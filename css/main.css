@@ -1,6 +1,7 @@
 html,
 body {
     height: 700px;
+    font-family: "Montserrat",sans-serif;
 }
 
 .carousel {
@@ -24,13 +25,14 @@ body {
     -o-background-size: cover;
 }
 a {
-    color: #FDBE00;
+    color: #d03238;
     text-decoration: none;
 }
 a:hover {
-    color: #FDBE00;
     opacity: .7;
+    color: #d03238;
     text-decoration: none;
+    transition: all 0.4s ease-in-out 0s;
 }
 footer {
     margin: -20px 0 0 0;
@@ -141,7 +143,7 @@ footer p {
     color: #fff;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
-     color: #FDBE00;
+    color: #d03238;
     transition: all 0.4s ease-in-out 0s;
  }
 
@@ -212,139 +214,6 @@ footer a img {
 
 
 
-.hex1 {
-    background-image: url(../img/balls/gimp.jpg)!important;
-    height: 60px;
-}
-.hex1 a {
-    display: block;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-}
-.hex2 {
-    background-image: url(../img/balls/html5.jpg)!important;
-    height: 60px;
-}
-.hex2 a {
-     display: block;
-     height: 100px;
-     width: 100px;
-     border-radius: 50%;
-}
-.hex3 {
-    background-image: url(../img/balls/ga.jpg)!important;
-    height: 60px;
-}
-.hex3 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex4 {
-    background-image: url(../img/balls/googlefonts.jpg)!important;
-    height: 60px;
-}
-.hex4 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex5 {
-    background-image: url(../img/balls/rwd.jpg) !important;
-    height: 60px;
-}
-.hex5 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex6 {
-    background-image: url(../img/balls/seo.jpg)!important;
-    height: 60px;
-}
-.hex6 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex7 {
-    background-image: url(../img/balls/php.jpg)!important;
-    height: 60px;
-}
-.hex7 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex8 {
-    background-image: url(../img/balls/git.jpg)!important;
-    height: 60px;
-}
-.hex8 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex9 {
-    background-image: url(../img/balls/bootstrap.jpg)!important;
-    height: 60px;
-}
-.hex9 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex10 {
-    background-image: url(../img/balls/css3.jpg)!important;
-    height: 60px;
-}
-.hex10 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex11 {
-    background-image: url(../img/balls/test.jpg)!important;
-    height: 60px;
-}
-.hex11 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex12 {
-    background-image: url(../img/balls/htmlemails.jpg)!important;
-    height: 60px;
-}
-.hex12 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-.hex13 {
-    background-image: url(../img/balls/knowledge.jpg)!important;
-    height: 60px;
-}
-.hex13 a {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-
-
 /*
 **********   MEDIA QUERIES - Hexagons  *************
 */
@@ -352,449 +221,31 @@ footer a img {
 /* http://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */ /*MEDIA QUERIES*/
 
 @media (max-width: 480px) { /* (min-width:320px) and smartphones, iPhone, portrait 480x320 phones */
-    .carousel-inner .big {
-        display: none;
-    }
-    .carousel-inner .small {
-        display: none;
-    }
-    #contact-form h1 a {
-        display: block;
-        width: 150px!important;
-        height: 20px;
-        background-image: url("../img/winalife_small.png");
-    }
-    .carousel-inner .mini {
-        display:block;
-    }
-    .carousel {
-        height: 850px;
-    }
-    .container .col-sm-6 {
-        padding: 10px;
-    }
-    .nav > li > a > img {
-        max-width: none;
-        display: none;
-    }
-    .specials::after {
-        content: "";
-        display: none;
-    }
-    #contact-form h1 a {
-        width: 300px;
-        margin-bottom: 10px;
-    }
-    p {
-        font-size: 0.9em;
-    }
-
-    .mini img {
-        width: 100%;
-        height: 40px;
-        margin: 5px;
-        box-shadow: 1px 3px 5px #888888;
-    }
-    .mini img:hover {
-        opacity: .8;
-    }
-    .nav > li {
-        margin-left: 0;
-    }
-    .nav > li:first-child {
-         margin-left: 10px;
-     }
-
-    .item .level {
-        margin-top: -40px;
-        margin-bottom: 20px;
-        font-size: 3em;
-        font-weight: bold;
-        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    }
-}
-
-
-
-
-
-@media (min-width:481px) and (max-width: 767px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-    .carousel-inner .big {
-        display: none;
-    }
-    .carousel-inner .small {
-        display: none;
-    }
-    .carousel-inner .mini {
-        display:block;
-    }
-    .carousel {
-        height: 850px;
-    }
-    .container .col-sm-6 {
-        padding: 10px;
-    }
-
-    .mini img {
-        width: 100%;
-        height: 40px;
-        margin: 5px;
-        box-shadow: 1px 3px 5px #888888;
-    }
-    .mini img:hover {
-        opacity: .8;
-    }
-
-    .item .level {
-        margin-top: -40px;
-        margin-bottom: 20px;
-        font-size: 3em;
-        font-weight: bold;
-        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    }
-
-    .nav > li {
-        margin-left: 0;
-    }
-    .nav > li:first-child {
-        margin-left: 65px;
-    }
-}
-/*@media (min-width:641px) {*/
-    /*.carousel-inner .big {*/
-        /*display: block;*/
-    /*}*/
-    /*.carousel-inner .small {*/
-        /*display: block;*/
-    /*}*/
-    /*.carousel {*/
-        /*height: 750px;*/
-    /*}*/
-    /*.container .col-sm-6 {*/
-        /*padding: 10px;*/
-    /*}*/
-/*}*/
-
-@media (min-width:768px) and (max-width: 991px) { /* (min-width:768px) */
-    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-    .carousel-inner .big {
-        display: none;
-    }
-    .carousel-inner .mini {
-        display: none;
-    }
-    .carousel-inner .small {
-        display: block;
-    }
-    .carousel {
-        height: 800px;
-    }
-    .container .col-sm-6 {
-        padding: 10px;
-    }
-
-    .item .level {
-        margin-top: 50px;
-        margin-bottom: 60px;
-        font-size: 5em;
-        font-weight: bold;
-        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    }
-
-    .ball_wrap {
-        position: relative;
-        margin: 150px;
-        width: auto;
-        margin-top: 200px;
-    }
-
-    .blue_ball {
-        height: 120px;
-        width: 120px;
-        border-radius: 50%;
-        border: 3px solid #000;
-        margin: auto;
-    }
-
-    .green_ball {
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        border: 3px solid #000;
-        position: absolute;
-    }
-
-
-    /*1.00*/
-    .ball_wrap div:nth-of-type(6) {
-        margin: auto;
-        top: -200px;
-        right: 40px;
-    }
-    .ball_wrap div:nth-of-type(6):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 135px;
-        left: -11px;
-        top: 82px;
-        -ms-transform: rotate(34deg); /* IE 9 */
-        -webkit-transform: rotate(34deg); /* Chrome, Safari, Opera */
-        transform: rotate(34deg);
-    }
-
-
-    /*2.00*/
-    .ball_wrap div:nth-of-type(7) {
-        margin: auto;
-        top: -115px;
-        left: 372px;
-    }
-    .ball_wrap div:nth-of-type(7):after {
-            content: "";
-            display: block;
-            border-left: 3px solid #000;
-            position: absolute;
-            height: 140px;
-            left: -52px;
-            top: 43px;
-            -ms-transform: rotate(60deg); /* IE 9 */
-            -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
-            transform: rotate(60deg);
-    }
-
-
-    /*3.00*/
-    .ball_wrap div:nth-of-type(3) {
-        margin: auto;
-        top: 10px;
-        left: 412px;
-    }
-    .ball_wrap div:nth-of-type(3):after {
-        content: "";
-        display: block;
-        border-bottom: 3px solid #000;
-        position: absolute;
-        width: 145px;
-        left: -145px;
-        top: 50%;
-    }
-
-
-    /*4.00*/
-    .ball_wrap div:nth-of-type(8) {
-        margin: auto;
-        top: 133px;
-        right:-52px;
-    }
-    .ball_wrap div:nth-of-type(8):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 138px;
-        left: -55px;
-        top: -80px;
-        -ms-transform: rotate(-57deg); /* IE 9 */
-        -webkit-transform: rotate(-57deg); /* Chrome, Safari, Opera */
-        transform: rotate(-57deg);
-    }
-
-
-    /*5.00*/
-    .ball_wrap div:nth-of-type(9) {
-        margin: auto;
-        top: 220px;
-        right: 40px;
-    }
-    .ball_wrap div:nth-of-type(9):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 135px;
-        left: -12px;
-        top: -121px;
-        -ms-transform: rotate(-34deg); /* IE 9 */
-        -webkit-transform: rotate(34deg); /* Chrome, Safari, Opera */
-        transform: rotate(-34deg);
-    }
-
-
-    /*6.00*/
-    .ball_wrap div:nth-of-type(4) {
-        margin: auto;
-        top: 260px;
-        right: 163px;
-    }
-    .ball_wrap div:nth-of-type(4):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 145px;
-        left: 47%;
-        top: -145px;
-    }
-
-
-    /*7.00*/
-    .ball_wrap div:nth-of-type(13) {
-        margin: auto;
-        top: 220px;
-        left: 38px;
-    }
-    .ball_wrap div:nth-of-type(13):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 135px;
-        right: -8px;
-        top: -122px;
-        -ms-transform: rotate(34deg); /* IE 9 */
-        -webkit-transform: rotate(34deg); /* Chrome, Safari, Opera */
-        transform: rotate(34deg);
-    }
-
-    /*8.00*/
-    .ball_wrap div:nth-of-type(12) {
-        margin: auto;
-        top: 133px;
-        right: 372px;
-    }
-    .ball_wrap div:nth-of-type(12):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 135px;
-        left: 148px;
-        top: -80px;
-        -ms-transform: rotate(57deg); /* IE 9 */
-        -webkit-transform: rotate(57deg); /* Chrome, Safari, Opera */
-        transform: rotate(57deg);
-    }
-
-
-
-    /*9.00*/
-    .ball_wrap div:nth-of-type(2) {
-        margin: auto;
-        top: 10px;
-        left: -90px;
-    }
-    .ball_wrap div:nth-of-type(2):after {
-        content: "";
-        display: block;
-        border-bottom: 3px solid #000;
-        position: absolute;
-        width: 145px;
-        right: -145px;
-        top: 50%;
-    }
-
-
-    /*10.00*/
-    .ball_wrap div:nth-of-type(11) {
-        margin: auto;
-        top: -115px;
-        right: 372px;
-    }
-    .ball_wrap div:nth-of-type(11):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 140px;
-        left: 143px;
-        top:46px;
-        -ms-transform: rotate(-60deg); /* IE 9 */
-        -webkit-transform: rotate(-60deg); /* Chrome, Safari, Opera */
-        transform: rotate(-60deg);
-    }
-
-
-    /*11.00*/
-    .ball_wrap div:nth-of-type(10) {
-        margin: auto;
-        top: -200px;
-        right: 285px;
-    }
-    .ball_wrap div:nth-of-type(10):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 136px;
-        left: 104px;
-        top: 82px;
-        -ms-transform: rotate(-34deg); /* IE 9 */
-        -webkit-transform: rotate(-34deg); /* Chrome, Safari, Opera */
-        transform: rotate(-34deg);
-    }
-
-
-
-    /*12.00*/
-    .ball_wrap div:nth-of-type(5) {
-        margin: auto;
-        top: -240px;
-        right: 163px;
-    }
-    .ball_wrap div:nth-of-type(5):after {
-        content: "";
-        display: block;
-        border-left: 3px solid #000;
-        position: absolute;
-        height: 145px;
-        left: 47%;
-        top: 95px;
-    }
-
-}
-
-
-
-
-
-
-
-
-@media (min-width:992px) and (max-width: 1199px) { /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
-    .carousel-inner .big {
-        display: block;
-    }
-    .carousel-inner .small {
-         display:none;
-    }
-    .carousel-inner .mini {
-        display:none;
-    }
     .hexagon {
         position: relative;
-        width: 100px;
-        height: 57.74px;
-        margin: 20.87px 15px;
+        width: 150px;
+        height: 86.60px;
+        margin: 103.74px auto;
         background-image: url(http://csshexagon.com/img/meow.jpg);
-        background-size: auto 115.4701px;
+        background-size: auto 161.6581px;
         background-position: center;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        border-left: solid 5px #333333;
+        border-right: solid 5px #333333;
     }
 
     .hexTop,
     .hexBottom {
         position: absolute;
         z-index: 1;
-        width: 70.71px;
-        height: 70.71px;
+        width: 106.07px;
+        height: 106.07px;
         overflow: hidden;
         -webkit-transform: scaleY(0.5774) rotate(-45deg);
         -ms-transform: scaleY(0.5774) rotate(-45deg);
         transform: scaleY(0.5774) rotate(-45deg);
         background: inherit;
-        left: 14.64px;
+        left: 16.97px;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
     }
 
@@ -803,11 +254,11 @@ footer a img {
     .hexBottom:after {
         content: "";
         position: absolute;
-        width: 100.0000px;
-        height: 57.73502691896258px;
-        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
-        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
-        transform:          rotate(45deg) scaleY(1.7321) translateY(-28.8675px);
+        width: 140.0000px;
+        height: 80.82903768654762px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
         -webkit-transform-origin: 0 0;
         -ms-transform-origin: 0 0;
         transform-origin: 0 0;
@@ -815,7 +266,9 @@ footer a img {
     }
 
     .hexTop {
-        top: -35.3553px;
+        top: -53.0330px;
+        border-top: solid 7.0711px #333333;
+        border-right: solid 7.0711px #333333;
     }
 
     .hexTop:after {
@@ -823,7 +276,9 @@ footer a img {
     }
 
     .hexBottom {
-        bottom: -35.3553px;
+        bottom: -53.0330px;
+        border-bottom: solid 7.0711px #333333;
+        border-left: solid 7.0711px #333333;
     }
 
     .hexBottom:after {
@@ -833,61 +288,154 @@ footer a img {
     .hexagon:after {
         content: "";
         position: absolute;
-        top: 0.0000px;
+        top: 2.8868px;
         left: 0;
-        width: 100.0000px;
-        height: 57.7350px;
+        width: 140.0000px;
+        height: 80.8290px;
         z-index: 2;
         background: inherit;
     }
-    #container {
-        margin-top: 20px;
+    .carousel {
+        height: 2600px;
+    }
+    .h1-center {
+        text-align: center;
+        margin-top: 0!important;
     }
     #hexa5 {
-        margin-left:155px;
-    }
-    #hexa1 {
-        margin-left: 220px;
+        margin-top: -3px;
     }
     #hexa10 {
-        margin-left: 220px;
-    }
-    .carousel {
-        height: 500px;
+        margin-top: -3px;
     }
     .item .level {
-         margin-top: 50px;
-         margin-bottom: 30px;
-         font-size: 3em;
-         font-weight: bold;
-         font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-     }
+        margin-top: 0px;
+        margin-bottom: -40px;
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
 }
 
 
 
 
 
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
-    .carousel-inner .big {
-        display: block;
+@media (min-width:481px) and (max-width: 768px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .carousel {
+        height: 3400px;
     }
-    .carousel-inner .small {
-        display:none;
-    }
-    .carousel-inner .mini {
-        display:none;
+    .h1-center {
+        text-align: center;
+        margin-top: 0!important;
     }
     .hexagon {
         position: relative;
-        width: 120px;
-        height: 69.28px;
-        margin: 24.64px 15px;
+        width: 200px;
+        height: 115.47px;
+        margin: 134.74px auto;
         background-image: url(http://csshexagon.com/img/meow.jpg);
-        background-size: auto 138.5641px;
+        background-size: auto 219.3931px;
         background-position: center;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        border-left: solid 5px #333333;
+        border-right: solid 5px #333333;
     }
+
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 141.42px;
+        height: 141.42px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 24.29px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 190.0000px;
+        height: 109.69655114602891px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+
+    .hexTop {
+        top: -70.7107px;
+        border-top: solid 7.0711px #333333;
+        border-right: solid 7.0711px #333333;
+    }
+
+    .hexTop:after {
+        background-position: center top;
+    }
+
+    .hexBottom {
+        bottom: -70.7107px;
+        border-bottom: solid 7.0711px #333333;
+        border-left: solid 7.0711px #333333;
+    }
+
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 2.8868px;
+        left: 0;
+        width: 190.0000px;
+        height: 109.6966px;
+        z-index: 2;
+        background: inherit;
+    }
+    #hexa5 {
+        margin-top: -3px;
+    }
+    #hexa10 {
+        margin-top: -3px;
+    }
+    .item .level {
+        margin-top: 0px;
+        margin-bottom: -40px;
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+}
+
+@media (min-width:769px) and (max-width: 991px) { /* (min-width:768px) */
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .carousel {
+        height: 600px;
+    }
+    .hexagon {
+         position: relative;
+         width: 120px;
+         height: 69.28px;
+         margin: 29.07px 10px;
+         background-image: url(http://csshexagon.com/img/meow.jpg);
+         background-size: auto 127.0171px;
+         background-position: center;
+         box-shadow: 0 0 20px rgba(0,0,0,0.6);
+         border-left: solid 5px #333333;
+         border-right: solid 5px #333333;
+     }
+
     .hexTop,
     .hexBottom {
         position: absolute;
@@ -899,7 +447,7 @@ footer a img {
         -ms-transform: scaleY(0.5774) rotate(-45deg);
         transform: scaleY(0.5774) rotate(-45deg);
         background: inherit;
-        left: 17.57px;
+        left: 12.57px;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
     }
 
@@ -908,11 +456,11 @@ footer a img {
     .hexBottom:after {
         content: "";
         position: absolute;
-        width: 120.0000px;
-        height: 69.2820323027551px;
-        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
-        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
-        transform:          rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
+        width: 110.0000px;
+        height: 63.508529610858844px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
         -webkit-transform-origin: 0 0;
         -ms-transform-origin: 0 0;
         transform-origin: 0 0;
@@ -921,6 +469,8 @@ footer a img {
 
     .hexTop {
         top: -42.4264px;
+        border-top: solid 7.0711px #333333;
+        border-right: solid 7.0711px #333333;
     }
 
     .hexTop:after {
@@ -929,6 +479,8 @@ footer a img {
 
     .hexBottom {
         bottom: -42.4264px;
+        border-bottom: solid 7.0711px #333333;
+        border-left: solid 7.0711px #333333;
     }
 
     .hexBottom:after {
@@ -938,10 +490,219 @@ footer a img {
     .hexagon:after {
         content: "";
         position: absolute;
-        top: 0.0000px;
+        top: 2.8868px;
         left: 0;
-        width: 120.0000px;
-        height: 69.2820px;
+        width: 110.0000px;
+        height: 63.5085px;
+        z-index: 2;
+        background: inherit;
+    }
+    #container {
+        margin-top: 20px;
+    }
+    #hexa5 {
+        margin-left: 15px;
+    }
+    #hexa1 {
+        margin-left: 85px;
+    }
+    #hexa10 {
+        margin-left: 85px;
+    }
+    .carousel {
+        height: 625px;
+    }
+    .item .level {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-size: 3em;
+        font-weight: bold;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width: 1199px) { /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
+    .hexagon {
+        position: relative;
+        width: 120px;
+        height: 69.28px;
+        margin: 30.07px 12px;
+        background-image: url(http://csshexagon.com/img/meow.jpg);
+        background-size: auto 127.0171px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        border-left: solid 5px #333333;
+        border-right: solid 5px #333333;
+    }
+
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 84.85px;
+        height: 84.85px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 12.57px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 110.0000px;
+        height: 63.508529610858844px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+
+    .hexTop {
+        top: -42.4264px;
+        border-top: solid 7.0711px #333333;
+        border-right: solid 7.0711px #333333;
+    }
+
+    .hexTop:after {
+        background-position: center top;
+    }
+
+    .hexBottom {
+        bottom: -42.4264px;
+        border-bottom: solid 7.0711px #333333;
+        border-left: solid 7.0711px #333333;
+    }
+
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 2.8868px;
+        left: 0;
+        width: 110.0000px;
+        height: 63.5085px;
+        z-index: 2;
+        background: inherit;
+    }
+    #container {
+        margin-top: 20px;
+    }
+    #hexa5 {
+        margin-left: 117px;
+    }
+    #hexa1 {
+        margin-left: 189px;
+    }
+    #hexa10 {
+        margin-left: 189px;
+    }
+    .carousel {
+        height: 625px;
+    }
+    .item .level {
+         margin-top: 50px;
+         margin-bottom: 40px;
+         font-size: 3em;
+         font-weight: bold;
+         font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+     }
+}
+
+
+
+
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+    .hexagon {
+        position: relative;
+        width: 140px;
+        height: 80.83px;
+        margin: 33.07px 15px;
+        background-image: url(http://csshexagon.com/img/meow.jpg);
+        background-size: auto 150.1111px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        border-left: solid 5px #333333;
+        border-right: solid 5px #333333;
+    }
+
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 98.99px;
+        height: 98.99px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 15.50px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 130.0000px;
+        height: 75.05553499465135px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-37.5278px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-37.5278px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-37.5278px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+
+    .hexTop {
+        top: -49.4975px;
+        border-top: solid 7.0711px #333333;
+        border-right: solid 7.0711px #333333;
+    }
+
+    .hexTop:after {
+        background-position: center top;
+    }
+
+    .hexBottom {
+        bottom: -49.4975px;
+        border-bottom: solid 7.0711px #333333;
+        border-left: solid 7.0711px #333333;
+    }
+
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 2.8868px;
+        left: 0;
+        width: 130.0000px;
+        height: 75.0555px;
         z-index: 2;
         background: inherit;
     }
@@ -949,16 +710,16 @@ footer a img {
         margin-top: 20px;
     }
     #hexa1 {
-        margin-left: 180px;
+        margin-left: 140px;
     }
     #hexa10 {
-        margin-left: 180px;
+        margin-left: 140px;
     }
     #hexa5 {
-        margin-left:104px;
+        margin-left:56px;
     }
     .carousel {
-        height: 600px;
+        height: 700px;
     }
     .item .level {
         margin-top: 50px;
