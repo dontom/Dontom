@@ -358,6 +358,12 @@ footer a img {
     .carousel-inner .small {
         display: none;
     }
+    #contact-form h1 a {
+        display: block;
+        width: 150px!important;
+        height: 20px;
+        background-image: url("../img/winalife_small.png");
+    }
     .carousel-inner .mini {
         display:block;
     }
