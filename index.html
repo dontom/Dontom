@@ -23,179 +23,116 @@
     <!-- Font Awesome-->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300' rel='stylesheet' type='text/css'>
+
+    <!--3D-->
+    <script src="js/d3.min.js" charset="utf-8"></script>
 
 </head>
 
 <body>
 
+    <!--HEADER LEFT-->
+    <div id="header-left">
+        <h3>Tomek <span>Marcinczyk</span></h3>
+        <h5>freelancer | frontend developer | growth hacker</h5>
+    </div>
 
-
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav specials">
-                    <li>
-                        <a href="#contact-form">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="img/logo.png"></a>
-                    </li>
-                    <li>
-                        <a href="#contact-form">GET IN TOUCH</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <!--HEADER RIGHT-->
+    <div id="header-right">
+        <div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="#contact-form">O MNIE</a>
+                </li>
+                <li>
+                    <a href="#contact-form">KONTAKT</a>
+                </li>
+            </ul>
         </div>
-        <!-- /.container -->
-    </nav>
+    </div>
 
-    <!-- Half Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+    <!--WITAJ-->
+    <div id="header-center">
+        <h1>Witaj</h1>
+    </div>
 
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active big">
-                <div class="h1-center">
-                    <h1 class="level">Level I</h1>
-                </div>
-                <div id="container" class="container">
-                    <a href="#"><div id="hexa1" class="hexagon col-md-3 col-sm-12">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa2" class="hexagon col-md-3 col-sm-12">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa3" class="hexagon col-md-3 col-sm-12">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa4" class="hexagon col-md-3 col-sm-12">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                </div>
+    <!--D3-->
+    <div id="fullSlide">
+    </div>
 
-                <div class="container">
-                    <a href="#"><div id="hexa5" class="hexagon col-md-2 col-sm-5">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa6" class="hexagon col-md-2 col-sm-5">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa7" class="hexagon col-md-2 col-sm-5">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa8" class="hexagon col-md-2 col-sm-5">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa9" class="hexagon col-md-2 col-sm-5">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                </div>
-
-                <div class="container">
-                    <a href="#"><div id="hexa10" class="hexagon col-md-4 col-sm-4">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa11" class="hexagon col-md-4 col-sm-4">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa12" class="hexagon col-md-4 col-sm-4">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                    <a href="#"><div id="hexa13" class="hexagon col-md-4 col-sm-4">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div></a>
-                </div>
-
-                <div class="fill"></div>
-                <div class="carousel-caption"></div>
-            </div>
+    <!--PORTFOLIO-->
 
 
-            <!--<div class="item">-->
-                <!--&lt;!&ndash; Set the second background image using inline CSS below. &ndash;&gt;-->
-                <!--<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>-->
-                <!--<div class="carousel-caption">-->
-                    <!--<h2>Caption 2</h2>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="item">-->
-                <!--&lt;!&ndash; Set the third background image using inline CSS below. &ndash;&gt;-->
-                <!--<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>-->
-                <!--<div class="carousel-caption">-->
-                    <!--<h2>Caption 3</h2>-->
-                <!--</div>-->
-            <!--</div>-->
-        </div>
-
-        <!-- Controls -->
-        <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">-->
-            <!--<span class="icon-prev"></span>-->
-        <!--</a>-->
-        <!--<a class="right carousel-control" href="#myCarousel" data-slide="next">-->
-            <!--<span class="icon-next"></span>-->
-        <!--</a>-->
-
-    </header>
-
-
+    <!--ABOUT ME-->
     <!-- Container fluid -->
     <div id="contact-form" class="container-fluid">
         <!-- Page Content -->
         <div class="container">
             <div class="row">
-                <div class="col-l/g-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                    <div class="hexagon">
+                        <div class="hexTop"></div>
+                        <div class="hexBottom"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                     <a id="github" href="https://github.com/dontom" target="_blank" style="float: left;margin: -5px 10px 0 0;"><img src="img/github.png" alt="github"></a>
                     <h1>Dontom</h1>
-                    <h2>JavaScript Developer</h2>
-                    <article>Hi! I'm frontend developer working in <a href="http://winalife.pl/" target="_blank">Winalife Company</a>.
-                        If you want me to work for you just contact me through this contact form: <a href="#"><i class="fa fa-share"></i></a>.
+                    <h2>Web Developer</h2>
+                    <article>Jestem freelancerem. Zajmuję się frontendem oraz backendem. Obecnie współpracuje min. z firmą: <a href="http://winalife.pl/" target="_blank">Winalife</a>.
+                         Jeśli jesteś zainteresowany współpracą lub chcesz mnie zatrudnić, napisz proszę przez formularz kontaktowy poniżej.
                     </article>
+                    <div id="workedwith">
+                        <h4>Współpracowałem min. z <span style="font-size: 1.2em">:</span></h4>
+                        <img src="img/wspolpraca/winalife.png" style="width: 200px;margin:15px;">
+                        <img src="img/wspolpraca/kings.png" style="width: 100px;margin:15px;"><br>
+                        <img src="img/wspolpraca/winalife.png" style="width: 200px;margin:15px;">
+                        <img src="img/wspolpraca/restimo.png" style="width: 200px;margin:15px;">
+                    </div>
                 </div>
             </div>
+
+            <div class="row" id="technologies">
+                <img src="img/html5.png">
+                <img src="img/php.png">
+                <img src="img/jquery.png">
+                <img src="img/gulp.png">
+                <img src="img/reactjs.png">
+                <img src="img/js.png">
+                <img src="img/less.png">
+                <img src="img/bootstrap.png">
+                <img src="img/css3.png">
+                <img src="img/mysql.png">
+            </div>
+
+
+            <!--<div class="row">-->
+                <!--<h3>Formularz kontaktowy</h3>-->
+                <!--<form>-->
+                    <!--<-->
+                <!--</form>-->
+            <!--</div>-->
+
+
+
         </div>
         <!-- /.container -->
     </div>
     <!-- ./container fluid -->
 
 
+
+
+
     <!-- Footer -->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <p>&copy; All rights reserved | Made by: <h1><a href="http://winalife.pl/" target="_blank"><img src="img/winalife.png"></a></h1>
+                <p>&copy; All rights reserved | Made by: </p><h1><a href="http://winalife.pl/" target="_blank"><img src="img/winalife.png"></a></h1>
             </div>
         </div>
         <!-- /.row -->
@@ -214,12 +151,9 @@
     <!-- Google Analitics -->
     <script src="js/analyticstracking.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <!-- main.js -->
+    <script src="js/main.js"></script>
+
 
 </body>
 

@@ -1,6 +1,6 @@
 html,
 body {
-    height: 700px;
+    /*height: 700px;*/
     font-family: "Montserrat",sans-serif;
 }
 
@@ -28,12 +28,86 @@ a {
     color: #d03238;
     text-decoration: none;
 }
-a:hover {
+a:hover, a:link, a:active, a:visited {
     opacity: .7;
     color: #d03238;
     text-decoration: none;
     transition: all 0.4s ease-in-out 0s;
+    background: transparent !important;
+    outline: 0;
 }
+
+
+/*HEADER*/
+#header-left {
+    position: absolute;
+    left: 1%;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#header-left span {
+    font-weight: 700;
+}
+#header-right {
+    position: absolute;
+    right: 1%;
+    top:2%;
+    letter-spacing: 1px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#header-right li a {
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#header-right li a:hover {
+    color: #d03238;
+    background-color: transparent;
+}
+#header-center {
+    position: absolute;
+    right: 45%;
+    top:40%;
+    letter-spacing: 1px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#header-center h1 {
+    opacity: .7;
+    color: whitesmoke;
+     font-size: 120px !important;
+ }
+
+/*INTRO*/
+#fullSlide {
+    margin-bottom: 13px;
+    background: #222;
+    width: 100%;
+    height: 100%;
+}
+
+rect {
+    fill: none;
+    pointer-events: all;
+}
+
+circle {
+    fill: none;
+    stroke-width: 2.5px;
+}
+
+
+
+
+/*Footer*/
 footer {
     margin: -20px 0 0 0;
     padding: 30px;
@@ -48,6 +122,13 @@ footer span {
 #contact-form img {
     width: 50px ;
 }
+
+#technologies img {
+    width: 100px!important;
+    margin: 14px 5px 30px 5px;
+}
+
+
 
 footer p {
     margin: 17px 0 10px;
@@ -74,34 +155,13 @@ footer p {
 }
 #contact-form article {
     margin-bottom: 50px;
-}
-
-.specials::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 40px solid #323232;
-    -moz-border-top-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    border-image: none;
-    border-bottom: 0 solid transparent !important;
-    border-right: 40px solid transparent !important;
-    border-left: 40px solid transparent !important;
-    left: 50%;
-    bottom: -40px;
-    margin-left: -45px;
+    font-size: 1.2em;
 }
 
 
 .h1-center {
     text-align: center;
     margin-top: 50px;
-}
-.level {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 
@@ -149,15 +209,6 @@ footer p {
 
 
 
-/************   Carusel   ************/
-.carousel-control.left {
-    background-image: none;
-}
-.carousel-control.right {
-    background-image: none;
-}
-
-
 /************   Footer   ************/
 footer {
     background-color: #222;
@@ -172,47 +223,6 @@ footer a img {
 }
 
 
-#hexa2 {
-    background-image: url(../img/hexagons/html5.jpg)!important;
-}
-#hexa10 {
-    background-image: url(../img/hexagons/css3.jpg)!important;
-}
-#hexa9 {
-    background-image: url(../img/hexagons/bootstrap.jpg)!important;
-}
-#hexa4 {
-    background-image: url(../img/hexagons/googlefonts.jpg)!important;
-}
-#hexa5 {
-    background-image: url(../img/hexagons/rwd.jpg)!important;
-}
-#hexa1 {
-    background-image: url(../img/hexagons/gimp.jpg)!important;
-}
-#hexa12 {
-    background-image: url(../img/hexagons/htmlemails.jpg)!important;
-}
-#hexa7 {
-    background-image: url(../img/hexagons/php.jpg)!important;
-}
-#hexa3 {
-    background-image: url(../img/hexagons/ga.jpg)!important;
-}
-#hexa11 {
-    background-image: url(../img/hexagons/test.jpg)!important;
-}
-#hexa6 {
-    background-image: url(../img/hexagons/seo.jpg)!important;
-}
-#hexa8 {
-    background-image: url(../img/hexagons/git.jpg)!important;
-}
-#hexa13 {
-    background-image: url(../img/hexagons/knowledge.jpg)!important;
-}
-
-
 
 /*
 **********   MEDIA QUERIES - Hexagons  *************
@@ -221,100 +231,6 @@ footer a img {
 /* http://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */ /*MEDIA QUERIES*/
 
 @media (max-width: 480px) { /* (min-width:320px) and smartphones, iPhone, portrait 480x320 phones */
-    .hexagon {
-        position: relative;
-        width: 150px;
-        height: 86.60px;
-        margin: 103.74px auto;
-        background-image: url(http://csshexagon.com/img/meow.jpg);
-        background-size: auto 161.6581px;
-        background-position: center;
-        box-shadow: 0 0 20px rgba(0,0,0,0.6);
-        border-left: solid 5px #333333;
-        border-right: solid 5px #333333;
-    }
-
-    .hexTop,
-    .hexBottom {
-        position: absolute;
-        z-index: 1;
-        width: 106.07px;
-        height: 106.07px;
-        overflow: hidden;
-        -webkit-transform: scaleY(0.5774) rotate(-45deg);
-        -ms-transform: scaleY(0.5774) rotate(-45deg);
-        transform: scaleY(0.5774) rotate(-45deg);
-        background: inherit;
-        left: 16.97px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.6);
-    }
-
-    /*counter transform the bg image on the caps*/
-    .hexTop:after,
-    .hexBottom:after {
-        content: "";
-        position: absolute;
-        width: 140.0000px;
-        height: 80.82903768654762px;
-        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
-        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
-        transform:          rotate(45deg) scaleY(1.7321) translateY(-40.4145px);
-        -webkit-transform-origin: 0 0;
-        -ms-transform-origin: 0 0;
-        transform-origin: 0 0;
-        background: inherit;
-    }
-
-    .hexTop {
-        top: -53.0330px;
-        border-top: solid 7.0711px #333333;
-        border-right: solid 7.0711px #333333;
-    }
-
-    .hexTop:after {
-        background-position: center top;
-    }
-
-    .hexBottom {
-        bottom: -53.0330px;
-        border-bottom: solid 7.0711px #333333;
-        border-left: solid 7.0711px #333333;
-    }
-
-    .hexBottom:after {
-        background-position: center bottom;
-    }
-
-    .hexagon:after {
-        content: "";
-        position: absolute;
-        top: 2.8868px;
-        left: 0;
-        width: 140.0000px;
-        height: 80.8290px;
-        z-index: 2;
-        background: inherit;
-    }
-    .carousel {
-        height: 2600px;
-    }
-    .h1-center {
-        text-align: center;
-        margin-top: 0!important;
-    }
-    #hexa5 {
-        margin-top: -3px;
-    }
-    #hexa10 {
-        margin-top: -3px;
-    }
-    .item .level {
-        margin-top: 0px;
-        margin-bottom: -40px;
-        font-size: 3em;
-        font-weight: bold;
-        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    }
     .nav>li>a>img {
         display: none;
     }
@@ -341,22 +257,115 @@ footer a img {
 
 
 @media (min-width:481px) and (max-width: 768px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-    .carousel {
-        height: 3400px;
-    }
-    .h1-center {
-        text-align: center;
-        margin-top: 0!important;
+    #contact-form img {
+        width: 50px;
+        margin-top: 16px;
     }
     .navbar-nav {
         margin: 0!important;
     }
-    .hexagon {
+}
+
+@media (min-width:769px) and (max-width: 991px) { /* (min-width:768px) */
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    #contact-form img {
+        width: 50px;
+        margin-top: 14px;
+    }
+
+    #contact-form .hexagon {
+        position: relative;
+        width: 130px;
+        height: 75.06px;
+        margin: 37.53px 0;
+        background-image: url(../img/hexagons/tomek.jpg);
+        background-size: auto 138.5641px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        border-left: solid 5px #333333;
+        border-right: solid 5px #333333;
+    }
+    #contact-form .hexTop,
+    #contact-form .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 91.92px;
+        height: 91.92px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 14.04px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    /*counter transform the bg image on the caps*/
+    #contact-form .hexTop:after,
+    #contact-form .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 120.0000px;
+        height: 69.2820323027551px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+
+    #contact-form .hexTop {
+        top: -45.9619px;
+        border-top: solid 7.0711px #333333;
+        border-right: solid 7.0711px #333333;
+    }
+
+    #contact-form .hexTop:after {
+        background-position: center top;
+    }
+
+    #contact-form  .hexBottom {
+        bottom: -45.9619px;
+        border-bottom: solid 7.0711px #333333;
+        border-left: solid 7.0711px #333333;
+    }
+
+    #contact-form .hexBottom:after {
+        background-position: center bottom;
+    }
+
+    #contact-form  .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 2.8868px;
+        left: 0;
+        width: 120.0000px;
+        height: 69.2820px;
+        z-index: 2;
+        background: inherit;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:992px) and (max-width: 1199px) { /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
+    #contact-form img {
+        width: 50px;
+        margin-top: 14px;
+    }
+    #contact-form .hexagon {
         position: relative;
         width: 200px;
         height: 115.47px;
-        margin: 134.74px auto;
-        background-image: url(http://csshexagon.com/img/meow.jpg);
+        margin: 57.74px 0;
+        background-image: url(../img/hexagons/tomek.jpg);
         background-size: auto 219.3931px;
         background-position: center;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
@@ -364,8 +373,8 @@ footer a img {
         border-right: solid 5px #333333;
     }
 
-    .hexTop,
-    .hexBottom {
+    #contact-form .hexTop,
+    #contact-form .hexBottom {
         position: absolute;
         z-index: 1;
         width: 141.42px;
@@ -380,8 +389,8 @@ footer a img {
     }
 
     /*counter transform the bg image on the caps*/
-    .hexTop:after,
-    .hexBottom:after {
+    #contact-form .hexTop:after,
+    #contact-form .hexBottom:after {
         content: "";
         position: absolute;
         width: 190.0000px;
@@ -395,27 +404,27 @@ footer a img {
         background: inherit;
     }
 
-    .hexTop {
+    #contact-form .hexTop {
         top: -70.7107px;
         border-top: solid 7.0711px #333333;
         border-right: solid 7.0711px #333333;
     }
 
-    .hexTop:after {
+    #contact-form .hexTop:after {
         background-position: center top;
     }
 
-    .hexBottom {
+    #contact-form .hexBottom {
         bottom: -70.7107px;
         border-bottom: solid 7.0711px #333333;
         border-left: solid 7.0711px #333333;
     }
 
-    .hexBottom:after {
+    #contact-form .hexBottom:after {
         background-position: center bottom;
     }
 
-    .hexagon:after {
+    #contact-form .hexagon:after {
         content: "";
         position: absolute;
         top: 2.8868px;
@@ -425,227 +434,6 @@ footer a img {
         z-index: 2;
         background: inherit;
     }
-    #hexa5 {
-        margin-top: -3px;
-    }
-    #hexa10 {
-        margin-top: -3px;
-    }
-    .item .level {
-        margin-top: 0px;
-        margin-bottom: -40px;
-        font-size: 3em;
-        font-weight: bold;
-        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    }
-}
-
-@media (min-width:769px) and (max-width: 991px) { /* (min-width:768px) */
-    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-    .carousel {
-        height: 600px;
-    }
-    .hexagon {
-         position: relative;
-         width: 120px;
-         height: 69.28px;
-         margin: 29.07px 10px;
-         background-image: url(http://csshexagon.com/img/meow.jpg);
-         background-size: auto 127.0171px;
-         background-position: center;
-         box-shadow: 0 0 20px rgba(0,0,0,0.6);
-         border-left: solid 5px #333333;
-         border-right: solid 5px #333333;
-     }
-
-    .hexTop,
-    .hexBottom {
-        position: absolute;
-        z-index: 1;
-        width: 84.85px;
-        height: 84.85px;
-        overflow: hidden;
-        -webkit-transform: scaleY(0.5774) rotate(-45deg);
-        -ms-transform: scaleY(0.5774) rotate(-45deg);
-        transform: scaleY(0.5774) rotate(-45deg);
-        background: inherit;
-        left: 12.57px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.6);
-    }
-
-    /*counter transform the bg image on the caps*/
-    .hexTop:after,
-    .hexBottom:after {
-        content: "";
-        position: absolute;
-        width: 110.0000px;
-        height: 63.508529610858844px;
-        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
-        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
-        transform:          rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
-        -webkit-transform-origin: 0 0;
-        -ms-transform-origin: 0 0;
-        transform-origin: 0 0;
-        background: inherit;
-    }
-
-    .hexTop {
-        top: -42.4264px;
-        border-top: solid 7.0711px #333333;
-        border-right: solid 7.0711px #333333;
-    }
-
-    .hexTop:after {
-        background-position: center top;
-    }
-
-    .hexBottom {
-        bottom: -42.4264px;
-        border-bottom: solid 7.0711px #333333;
-        border-left: solid 7.0711px #333333;
-    }
-
-    .hexBottom:after {
-        background-position: center bottom;
-    }
-
-    .hexagon:after {
-        content: "";
-        position: absolute;
-        top: 2.8868px;
-        left: 0;
-        width: 110.0000px;
-        height: 63.5085px;
-        z-index: 2;
-        background: inherit;
-    }
-    #container {
-        margin-top: 20px;
-    }
-    #hexa5 {
-        margin-left: 15px;
-    }
-    #hexa1 {
-        margin-left: 85px;
-    }
-    #hexa10 {
-        margin-left: 85px;
-    }
-    .carousel {
-        height: 625px;
-    }
-    .item .level {
-        margin-top: 50px;
-        margin-bottom: 40px;
-        font-size: 3em;
-        font-weight: bold;
-        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    }
-}
-
-
-
-
-
-
-
-
-@media (min-width:992px) and (max-width: 1199px) { /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
-    .hexagon {
-        position: relative;
-        width: 120px;
-        height: 69.28px;
-        margin: 30.07px 12px;
-        background-image: url(http://csshexagon.com/img/meow.jpg);
-        background-size: auto 127.0171px;
-        background-position: center;
-        box-shadow: 0 0 20px rgba(0,0,0,0.6);
-        border-left: solid 5px #333333;
-        border-right: solid 5px #333333;
-    }
-    .hexTop,
-    .hexBottom {
-        position: absolute;
-        z-index: 1;
-        width: 84.85px;
-        height: 84.85px;
-        overflow: hidden;
-        -webkit-transform: scaleY(0.5774) rotate(-45deg);
-        -ms-transform: scaleY(0.5774) rotate(-45deg);
-        transform: scaleY(0.5774) rotate(-45deg);
-        background: inherit;
-        left: 12.57px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.6);
-    }
-
-    /*counter transform the bg image on the caps*/
-    .hexTop:after,
-    .hexBottom:after {
-        content: "";
-        position: absolute;
-        width: 110.0000px;
-        height: 63.508529610858844px;
-        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
-        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
-        transform:          rotate(45deg) scaleY(1.7321) translateY(-31.7543px);
-        -webkit-transform-origin: 0 0;
-        -ms-transform-origin: 0 0;
-        transform-origin: 0 0;
-        background: inherit;
-    }
-
-    .hexTop {
-        top: -42.4264px;
-        border-top: solid 7.0711px #333333;
-        border-right: solid 7.0711px #333333;
-    }
-
-    .hexTop:after {
-        background-position: center top;
-    }
-
-    .hexBottom {
-        bottom: -42.4264px;
-        border-bottom: solid 7.0711px #333333;
-        border-left: solid 7.0711px #333333;
-    }
-
-    .hexBottom:after {
-        background-position: center bottom;
-    }
-
-    .hexagon:after {
-        content: "";
-        position: absolute;
-        top: 2.8868px;
-        left: 0;
-        width: 110.0000px;
-        height: 63.5085px;
-        z-index: 2;
-        background: inherit;
-    }
-    #container {
-        margin-top: 20px;
-    }
-    #hexa5 {
-        margin-left: 117px;
-    }
-    #hexa1 {
-        margin-left: 189px;
-    }
-    #hexa10 {
-        margin-left: 189px;
-    }
-    .carousel {
-        height: 625px;
-    }
-    .item .level {
-         margin-top: 50px;
-         margin-bottom: 40px;
-         font-size: 3em;
-         font-weight: bold;
-         font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-     }
 }
 
 
@@ -653,101 +441,83 @@ footer a img {
 
 
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
-    .hexagon {
+    #contact-form img {
+        width: 50px;
+        margin-top: 14px;
+    }
+    #contact-form  .hexagon {
         position: relative;
-        width: 140px;
-        height: 80.83px;
-        margin: 33.07px 15px;
-        background-image: url(http://csshexagon.com/img/meow.jpg);
-        background-size: auto 150.1111px;
+        width: 200px;
+        height: 115.47px;
+        margin: 57.74px 0;
+        background-image: url(../img/hexagons/tomek.jpg);
+        background-size: auto 219.3931px;
         background-position: center;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
         border-left: solid 5px #333333;
         border-right: solid 5px #333333;
     }
 
-    .hexTop,
-    .hexBottom {
+    #contact-form .hexTop,
+    #contact-form .hexBottom {
         position: absolute;
         z-index: 1;
-        width: 98.99px;
-        height: 98.99px;
+        width: 141.42px;
+        height: 141.42px;
         overflow: hidden;
         -webkit-transform: scaleY(0.5774) rotate(-45deg);
         -ms-transform: scaleY(0.5774) rotate(-45deg);
         transform: scaleY(0.5774) rotate(-45deg);
         background: inherit;
-        left: 15.50px;
+        left: 24.29px;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
     }
 
     /*counter transform the bg image on the caps*/
-    .hexTop:after,
-    .hexBottom:after {
+    #contact-form .hexTop:after,
+    #contact-form .hexBottom:after {
         content: "";
         position: absolute;
-        width: 130.0000px;
-        height: 75.05553499465135px;
-        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-37.5278px);
-        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-37.5278px);
-        transform:          rotate(45deg) scaleY(1.7321) translateY(-37.5278px);
+        width: 190.0000px;
+        height: 109.69655114602891px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
         -webkit-transform-origin: 0 0;
         -ms-transform-origin: 0 0;
         transform-origin: 0 0;
         background: inherit;
     }
 
-    .hexTop {
-        top: -49.4975px;
+    #contact-form .hexTop {
+        top: -70.7107px;
         border-top: solid 7.0711px #333333;
         border-right: solid 7.0711px #333333;
     }
 
-    .hexTop:after {
+    #contact-form .hexTop:after {
         background-position: center top;
     }
 
-    .hexBottom {
-        bottom: -49.4975px;
+    #contact-form .hexBottom {
+        bottom: -70.7107px;
         border-bottom: solid 7.0711px #333333;
         border-left: solid 7.0711px #333333;
     }
 
-    .hexBottom:after {
+    #contact-form .hexBottom:after {
         background-position: center bottom;
     }
 
-    .hexagon:after {
+    #contact-form .hexagon:after {
         content: "";
         position: absolute;
         top: 2.8868px;
         left: 0;
-        width: 130.0000px;
-        height: 75.0555px;
+        width: 190.0000px;
+        height: 109.6966px;
         z-index: 2;
         background: inherit;
-    }
-    #container {
-        margin-top: 20px;
-    }
-    #hexa1 {
-        margin-left: 140px;
-    }
-    #hexa10 {
-        margin-left: 140px;
-    }
-    #hexa5 {
-        margin-left:56px;
-    }
-    .carousel {
-        height: 700px;
-    }
-    .item .level {
-        margin-top: 50px;
-        margin-bottom: 40px;
-        font-size: 3em;
-        font-weight: bold;
-        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
     }
 }
 
@@ -759,105 +529,113 @@ footer a img {
 
 @media (min-width:1200px) { /* hi-res laptops and desktops */
     /************   Hexagon   ************/
-    #contact-form img {
-        width: 50px ;
-        margin-top: 16px;
-    }
-    .hexagon {
+
+    #contact-form .hexagon {
         position: relative;
-        width: 170px;
-        height: 98.15px;
-        margin: 33.07px 15px;
-        background-color: #fff;
-        background-size: auto 184.7521px;
+        width: 300px;
+        height: 173.21px;
+        margin: 86.60px 0;
+        background-image: url(../img/tomek.jpg);
+        background-size: auto 334.8632px;
         background-position: center;
-        box-shadow: 0 0 30px rgba(0,0,0,0.75);
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
         border-left: solid 5px #333333;
         border-right: solid 5px #333333;
     }
-    .item .level {
-        margin-top: 50px;
-        margin-bottom: -40px;
-        font-size: 3em;
-        font-weight: bold;
-        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    }
 
-    .hexTop,
-    .hexBottom {
+    #contact-form .hexTop,
+    #contact-form .hexBottom {
         position: absolute;
         z-index: 1;
-        width: 120.21px;
-        height: 120.21px;
+        width: 212.13px;
+        height: 212.13px;
         overflow: hidden;
         -webkit-transform: scaleY(0.5774) rotate(-45deg);
         -ms-transform: scaleY(0.5774) rotate(-45deg);
         transform: scaleY(0.5774) rotate(-45deg);
         background: inherit;
-        left: 19.90px;
-        box-shadow: 0 0 30px rgba(0,0,0,0.75);
+        left: 38.93px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
     }
 
     /*counter transform the bg image on the caps*/
-    .hexTop:after,
-    .hexBottom:after {
+    #contact-form .hexTop:after,
+    #contact-form .hexBottom:after {
         content: "";
         position: absolute;
-        width: 160.0000px;
-        height: 92.37604307034013px;
-        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
-        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
-        transform:          rotate(45deg) scaleY(1.7321) translateY(-46.1880px);
+        width: 290.0000px;
+        height: 167.4315780649915px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-83.7158px);
         -webkit-transform-origin: 0 0;
         -ms-transform-origin: 0 0;
         transform-origin: 0 0;
         background: inherit;
     }
 
-    .hexTop {
-        top: -60.1041px;
+    #contact-form .hexTop {
+        top: -106.0660px;
         border-top: solid 7.0711px #333333;
         border-right: solid 7.0711px #333333;
     }
 
-    .hexTop:after {
+    #contact-form .hexTop:after {
         background-position: center top;
     }
 
-    .hexBottom {
-        bottom: -60.1041px;
+    #contact-form .hexBottom {
+        bottom: -106.0660px;
         border-bottom: solid 7.0711px #333333;
         border-left: solid 7.0711px #333333;
     }
 
-    .hexBottom:after {
+    #contact-form .hexBottom:after {
         background-position: center bottom;
     }
 
-    .hexagon:after {
+    #contact-form .hexagon:after {
         content: "";
         position: absolute;
         top: 2.8868px;
         left: 0;
-        width: 160.0000px;
-        height: 92.3760px;
+        width: 290.0000px;
+        height: 167.4316px;
         z-index: 2;
         background: inherit;
     }
-
-    #container {
-        margin-top: 80px;
-    }
-    #hexa1 {
-        margin-left: 180px;
-    }
-    #hexa10 {
-        margin-left: 180px;
-    }
-    #hexa5 {
-        margin-left:80px;
-    }
-    .carousel {
-        height: 715px;
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
