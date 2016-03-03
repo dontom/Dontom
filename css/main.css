@@ -28,7 +28,7 @@ a {
     color: #d03238;
     text-decoration: none;
 }
-a:hover, a:link, a:active, a:visited {
+a:hover {
     opacity: .7;
     color: #d03238;
     text-decoration: none;
@@ -128,6 +128,33 @@ footer span {
     margin: 14px 5px 30px 5px;
 }
 
+#contact-info {
+    margin: 0 0 50px 0;
+}
+#contact-form .row .contact i {
+    float:left;
+    margin: 5px 10px;
+}
+#contact-form .row .contact p {
+    margin: 0 0 -7px 0;
+    font-size: .8em;
+}
+.contact {
+    margin-top: 10px;
+}
+.contact a:hover {
+    color: red;
+}
+
+
+/*#workedwith h3 {*/
+    /*display: inline-block;*/
+/*}*/
+/*#workedwith img {*/
+    /*display: inline-block;*/
+    /*float: right;*/
+    /*margin: -20px 15px 15px 15px;*/
+/*}*/
 
 
 footer p {
@@ -154,7 +181,7 @@ footer p {
     background-color: #353535;
 }
 #contact-form article {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     font-size: 1.2em;
 }
 

@@ -25,134 +25,241 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:300' rel='stylesheet' type='text/css'>
 
+    <!--Isotope-->
+    <link rel="stylesheet" href="css/style-isotope.css">
+
     <!--3D-->
     <script src="js/d3.min.js" charset="utf-8"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!--isotope-->
+    <script src="js/jquery.isotope.js" type="text/javascript"></script>
 
 </head>
 
 <body>
 
-    <!--HEADER LEFT-->
-    <div id="header-left">
-        <h3>Tomek <span>Marcinczyk</span></h3>
-        <h5>freelancer | frontend developer | growth hacker</h5>
+<!--HEADER LEFT-->
+<div id="header-left">
+    <h3>Tomek <span>Marcinczyk</span></h3>
+    <h5>freelancer | frontend developer | growth hacker</h5>
+</div>
+
+<!--HEADER RIGHT-->
+<div id="header-right">
+    <div>
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="#">PORTFOLIO</a>
+            </li>
+            <li>
+                <a href="#contact-form">O MNIE</a>
+            </li>
+            <li>
+                <a href="#contact-form">KONTAKT</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--WITAJ-->
+<div id="header-center">
+    <h1>Witaj</h1>
+</div>
+
+<!--D3-->
+<div id="fullSlide"></div>
+
+
+<!--PORTFOLIO-->
+<div id="isotope" class="container-fluid">
+    <div id="technology-filter"><h2>Portfolio</h2><br></div>
+    <div class="portfolioFilter col-md-3">
+        <h3>Technologie:</h3>
+        <a href="#" data-filter="*">Wszystkie</a>
+        <a href="#" data-filter=".html5">HTML5</a>
+        <a href="#" data-filter=".css3">CSS3</a>
+        <a href="#" data-filter=".sass">SASS</a>
+        <a href="#" data-filter=".bootstrap">Bootstrap</a>
+        <a href="#" data-filter=".js">Java Script</a>
+        <a href="#" data-filter=".jquery">jQuery</a>
+        <a href="#" data-filter=".react">React</a>
+        <a href="#" data-filter=".php">Php</a>
+        <a href="#" data-filter=".laravel">Laravel</a>
+        <a href="#" data-filter=".mysql">MySQL</a>
     </div>
 
-    <!--HEADER RIGHT-->
-    <div id="header-right">
-        <div>
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#">PORTFOLIO</a>
-                </li>
-                <li>
-                    <a href="#contact-form">O MNIE</a>
-                </li>
-                <li>
-                    <a href="#contact-form">KONTAKT</a>
-                </li>
-            </ul>
+    <div class="portfolioContainer col-md-9">
+
+        <div class="html5 css3 bootstrap js jquery">
+            <a href="http://www.goldcosmetics.pl/" target="_blank"><img src="img/portfolio/goldcosmetics.jpg" alt="Gold Cosmetics"></a>
         </div>
-    </div>
 
-    <!--WITAJ-->
-    <div id="header-center">
-        <h1>Witaj</h1>
-    </div>
-
-    <!--D3-->
-    <div id="fullSlide">
-    </div>
-
-    <!--PORTFOLIO-->
-
-
-    <!--ABOUT ME-->
-    <!-- Container fluid -->
-    <div id="contact-form" class="container-fluid">
-        <!-- Page Content -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
-                    <div class="hexagon">
-                        <div class="hexTop"></div>
-                        <div class="hexBottom"></div>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                    <a id="github" href="https://github.com/dontom" target="_blank" style="float: left;margin: -5px 10px 0 0;"><img src="img/github.png" alt="github"></a>
-                    <h1>Dontom</h1>
-                    <h2>Web Developer</h2>
-                    <article>Jestem freelancerem. Zajmuję się frontendem oraz backendem. Obecnie współpracuje min. z firmą: <a href="http://winalife.pl/" target="_blank">Winalife</a>.
-                         Jeśli jesteś zainteresowany współpracą lub chcesz mnie zatrudnić, napisz proszę przez formularz kontaktowy poniżej.
-                    </article>
-                    <div id="workedwith">
-                        <h4>Współpracowałem min. z <span style="font-size: 1.2em">:</span></h4>
-                        <img src="img/wspolpraca/winalife.png" style="width: 200px;margin:15px;">
-                        <img src="img/wspolpraca/kings.png" style="width: 100px;margin:15px;"><br>
-                        <img src="img/wspolpraca/winalife.png" style="width: 200px;margin:15px;">
-                        <img src="img/wspolpraca/restimo.png" style="width: 200px;margin:15px;">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row" id="technologies">
-                <img src="img/html5.png">
-                <img src="img/php.png">
-                <img src="img/jquery.png">
-                <img src="img/gulp.png">
-                <img src="img/reactjs.png">
-                <img src="img/js.png">
-                <img src="img/less.png">
-                <img src="img/bootstrap.png">
-                <img src="img/css3.png">
-                <img src="img/mysql.png">
-            </div>
-
-
-            <!--<div class="row">-->
-                <!--<h3>Formularz kontaktowy</h3>-->
-                <!--<form>-->
-                    <!--<-->
-                <!--</form>-->
-            <!--</div>-->
-
-
-
+        <div class="html5 css3 bootstrap js jquery">
+            <a href="http://enactuspw.pl/" target="_blank"><img src="img/portfolio/enactuspw.jpg" alt="Enactus PW"></a>
         </div>
-        <!-- /.container -->
+
+        <div class="html5 css3 bootstrap js jquery">
+            <a href="http://enactuspw.pl/" target="_blank"><img src="img/portfolio/enactuspw.jpg" alt="Enactus PW"></a>
+        </div>
+
+        <div class="html5 css3 bootstrap js jquery">
+            <a href="http://enactuspw.pl/" target="_blank"><img src="img/portfolio/enactuspw.jpg" alt="Enactus PW"></a>
+        </div>
+
+        <div class="html5 css3 bootstrap js jquery">
+            <a href="http://enactuspw.pl/" target="_blank"><img src="img/portfolio/enactuspw.jpg" alt="Enactus PW"></a>
+        </div>
+
+        <div class="html5 css3 bootstrap js jquery">
+            <a href="http://enactuspw.pl/" target="_blank"><img src="img/portfolio/enactuspw.jpg" alt="Enactus PW"></a>
+        </div>
+
     </div>
-    <!-- ./container fluid -->
+</div>
 
 
 
-
-
-    <!-- Footer -->
-    <footer class="container-fluid">
+<!--ABOUT ME-->
+<!-- Container fluid -->
+<div id="contact-form" class="container-fluid">
+    <!-- Page Content -->
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <p>&copy; All rights reserved | Made by: </p><h1><a href="http://winalife.pl/" target="_blank"><img src="img/winalife.png"></a></h1>
+            <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                <div class="hexagon">
+                    <div class="hexTop"></div>
+                    <div class="hexBottom"></div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <a id="github" href="https://github.com/dontom" target="_blank" style="float: left;margin: -5px 10px 0 0;"><img src="img/github.png" alt="github"></a>
+                <h1>Dontom</h1>
+                <h2>Web Developer</h2>
+                <article>Jestem freelancerem. Zajmuję się frontendem i backendem. Obecnie współpracuje min. z firmą: <a href="http://winalife.pl/" target="_blank">Winalife</a>.
+                    Jeśli jesteś zainteresowany współpracą lub chcesz mnie zatrudnić, napisz proszę maila, a na pewno się dogadamy.
+                </article>
+                <!--<div id="workedwith">-->
+                    <!--<h3>Współpracowałem min. z <span style="font-size: 1.2em">:</span></h3>-->
+                    <!--&lt;!&ndash;<img src="img/wspolpraca/winalife.png" style="width: 200px;margin:15px;">&ndash;&gt;-->
+                    <!--<img src="img/wspolpraca/enactus.png" style="width: 200px;">-->
+                    <!--<img src="img/wspolpraca/kings.png" style="width: 100px;">-->
+                <!--</div>-->
+
+
+                <div id="contact-info" class="row">
+                    <h3>Kontakt:</h3>
+                    <div class="contact col-md-4">
+                        <i class="fa fa-envelope-o fa-2x"></i>
+                        <p>E-mail</p>
+                        <a href="mailto:marcinczykt@gmail.com">marcinczykt@gmail.com</a>
+                    </div>
+
+                    <div class="contact col-md-8">
+                        <i class="fa fa-facebook fa-2x"></i>
+                        <p>Facebook</p>
+                        <a href="https://www.facebook.com/">Fanpage</a>
+                    </div>
+
+                    <div class="contact col-md-4">
+                        <i class="fa fa-github fa-2x"></i>
+                        <p>Git Hub</p>
+                        <a href="https://github.com/dontom">Dontom repository</a>
+                    </div>
+
+                    <div class="contact col-md-8">
+                        <i class="fa fa-linkedin fa-2x"></i>
+                        <p>Linkedin</p>
+                        <a href="https://www.linkedin.com/in/tomasz-marci%C5%84czyk-025253a4?trk=nav_responsive_tab_profile_pic">My profile</a>
+                    </div>
+
+                </div>
+
             </div>
         </div>
-        <!-- /.row -->
-    </footer>
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <!--<div class="row" id="technologies">-->
+        <!--<h3>Technologie:</h3>-->
+        <!--<img src="img/html5.png">-->
+        <!--<img src="img/php.png">-->
+        <!--<img src="img/jquery.png">-->
+        <!--<img src="img/gulp.png">-->
+        <!--<img src="img/sass.png">-->
+        <!--<img src="img/reactjs.png">-->
+        <!--<img src="img/js.png">-->
+        <!--<img src="img/bootstrap.png">-->
+        <!--<img src="img/css3.png">-->
+        <!--<img src="img/mysql.png">-->
+        <!--</div>-->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Smooth Scrooling -->
-    <script src="js/smoothscroll.js"></script>
+    </div>
+    <!-- /.container -->
+</div>
+<!-- ./container fluid -->
 
-    <!-- Google Analitics -->
-    <script src="js/analyticstracking.js"></script>
 
-    <!-- main.js -->
-    <script src="js/main.js"></script>
+
+
+
+<!-- Footer -->
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <p>&copy; All rights reserved | Made by: </p><h1><a href="http://winalife.pl/" target="_blank"><img src="img/winalife.png"></a></h1>
+        </div>
+    </div>
+    <!-- /.row -->
+</footer>
+
+
+<script type="text/javascript">
+
+    $(window).load(function(){
+        var $container = $('.portfolioContainer');
+        $container.isotope({
+            filter: '*',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+
+        $('.portfolioFilter a').click(function(){
+            $('.portfolioFilter .current').removeClass('current');
+            $(this).addClass('current');
+
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+            return false;
+        });
+    });
+
+</script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Smooth Scrooling -->
+<script src="js/smoothscroll.js"></script>
+
+<!-- Google Analitics -->
+<script src="js/analyticstracking.js"></script>
+
+<!-- main.js -->
+<script src="js/main.js"></script>
+
 
 
 </body>
