@@ -52,10 +52,18 @@ img {
 }
 #isotope .portfolioFilter a:hover {
     font-weight: 900;
+    outline: none;
+}
+#isotope .portfolioFilter a:visited,
+#isotope .portfolioFilter a:link,
+#isotope .portfolioFilter a:checked,
+#isotope .portfolioFilter a:active {
+    outline: none;
 }
 #isotope .portfolioFilter a  span {
     font-size: .6em;
 }
 #technology-filter {
     text-align: center;
+    color: #666;
 }
