@@ -1,13 +1,32 @@
+/************   STANDARD STYLESHEETS  ************/
 html,
 body {
-    /*height: 700px;*/
     font-family: "Montserrat",sans-serif;
+    background-color: #353535;
 }
+a {
+    color: #d03238;
+    text-decoration: none;
+}
+a:hover {
+    opacity: .7;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out 0s;
+    background: transparent !important;
+    outline: 0;
+}
+/************   END STANDARD STYLESHEETS   ************/
 
-/*LOADING PAGE ICON*/
+
+
+
+
+
+
+
+/************  LOADING ICON   ************/
 /*http://smallenvelop.com/display-loading-icon-page-loads-completely/*/
 /*http://loadergenerator.com/*/
-no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .loading-icon {
     position: fixed;
@@ -18,42 +37,44 @@ no-js #loader { display: none;  }
     z-index: 9999;
     background: url("../img/loader.gif") center no-repeat #222;
 }
+/************  END LOADING ICON   ************/
 
-.carousel {
-    height: 100%;
-    margin-top: 87px;
-}
 
-.item,
-.active,
-.carousel-inner {
-    height: 100%;
-}
 
-.fill {
+
+
+
+
+
+
+/************  D3.js   ************/
+#fullSlide {
+    margin-bottom: 13px;
+    background: #222;
     width: 100%;
     height: 100%;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
-a {
-    color: #d03238;
-    text-decoration: none;
+rect {
+    fill: none;
+    pointer-events: all;
 }
-a:hover {
-    opacity: .7;
-    color: #d03238;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out 0s;
-    background: transparent !important;
-    outline: 0;
+circle {
+    fill: none;
+    stroke-width: 3px;
 }
+/************  END D3.js   ************/
 
 
-/*HEADER*/
+
+
+
+
+
+
+
+
+/************  HEADER   ************/
+/*left*/
 #header-left {
     position: absolute;
     left: 1%;
@@ -66,6 +87,8 @@ a:hover {
 #header-left span {
     font-weight: 700;
 }
+
+/*right*/
 #header-right {
     position: absolute;
     right: 1%;
@@ -75,180 +98,27 @@ a:hover {
     text-transform: uppercase;
     font-family: 'Alegreya Sans', sans-serif;
 }
-#header-right li a {
-    color: whitesmoke;
-    letter-spacing: 1px;
-    line-height: 17px;
-    text-transform: uppercase;
-    font-family: 'Alegreya Sans', sans-serif;
-}
-#header-right li a:hover {
-    color: #d03238;
-    background-color: transparent;
-}
-#header-center {
-    position: absolute;
-    right: 45%;
-    top:40%;
-    letter-spacing: 1px;
-    line-height: 17px;
-    text-transform: uppercase;
-    font-family: 'Alegreya Sans', sans-serif;
-}
-#header-center h1 {
-    opacity: .7;
-    color: whitesmoke;
-     font-size: 120px !important;
- }
-
-/*INTRO*/
-#fullSlide {
-    margin-bottom: 13px;
-    background: #222;
-    width: 100%;
-    height: 100%;
-}
-
-rect {
-    fill: none;
-    pointer-events: all;
-}
-
-circle {
-    fill: none;
-    stroke-width: 2.5px;
-}
-
-
-
-
-/*Footer*/
-footer {
-    margin: -20px 0 0 0;
-    padding: 30px;
-    color: #C9C9C9; 
-    font-size: 13px;
-    line-height: 1.8em;
-}
-footer span {
-    color: #FFF;
-    font-size: 14px;
-}
-#contact-form img {
-    width: 50px ;
-}
-
-#technologies img {
-    width: 100px!important;
-    margin: 14px 5px 30px 5px;
-}
-
-#contact-info {
-    margin: 0 0 50px 0;
-}
-#contact-form .row .contact i {
-    float:left;
-    margin: 5px 10px;
-}
-#contact-form .row .contact p {
-    margin: 0 0 -7px 0;
-    font-size: .8em;
-}
-.contact {
-    margin-top: 10px;
-}
-.contact a:hover {
-    color: red;
-}
-
-
-/*#workedwith h3 {*/
-    /*display: inline-block;*/
-/*}*/
-/*#workedwith img {*/
-    /*display: inline-block;*/
-    /*float: right;*/
-    /*margin: -20px 15px 15px 15px;*/
-/*}*/
-
-
-footer p {
-    margin: 17px 0 10px;
-    color: #fff;
-    font-size: 1.4em;
-}
-#contact-form #github:hover {
-    opacity: 0.4;
-}
-#contact-form #github {
-    opacity: 0.7;
-}
-#contact-form h1 a:hover {
-    opacity: 0.7;
-}
-
-#contact-form {
-    margin: -20px 0 0 0;
-    padding: 30px;
-    color: #C9C9C9;
-    font-size: 13px;
-    line-height: 1.8em;
-    background-color: #353535;
-}
-#contact-form article {
-    margin-bottom: 10px;
-    font-size: 1.2em;
-}
-
-
-.h1-center {
-    text-align: center;
-    margin-top: 50px;
-}
-
-
-.ball_wrap div:hover {
-    opacity: .8;
-}
-
-/* LOGO WINALIFE */
-#contact-form h1 a {
-    display: block;
-    width: 300px;
-    height: 40px;
-    background-image: url("../img/winalife.png");
-    text-indent: -9999px;
-    float: right;
-    margin-right: 20px;
-    margin-left: 15px;
-}
-
-/************   Header   ************/
-.navbar-inverse {
-    background: #323232 none repeat scroll 0 0;
-    border-color: #080808;
-}
-.navbar-nav {
+#header-right .nav {
     width: 100%;
     text-align: center;
     padding: 15px;
 }
-.nav > li {
-    display: inline !important;
-    margin-left: 36px;
+#header-right .nav > li {
+     display: inline !important;
+     margin-left: 36px;
 }
-.nav > li > a {
+#header-right .nav li a {
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
     display: inline;
     margin-top: 20px;
 }
-.navbar-inverse .navbar-nav > li > a {
-    color: #fff;
-    background-color:  transparent!important;
-}
-.navbar-inverse .navbar-nav > li > a:hover {
+#header-right .nav li a:hover {
     color: #d03238;
-    background-color:  transparent;
-    transition: all 0.4s ease-in-out 0s;
+    background-color: transparent;
 }
 #header-right .navbar-nav li a:active,
 #header-right .navbar-nav li a:link,
@@ -259,155 +129,282 @@ footer p {
     outline: none;
 }
 
-
-
-/************   Footer   ************/
-footer {
-    background-color: #222;
+/*center*/
+#header-center {
+    position: absolute;
+    right: 39%;
+    top:40%;
+    letter-spacing: 1px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
 }
+#header-center h1 {
+    opacity: .7;
+    color: whitesmoke;
+    font-size: 120px !important;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+#header-center a i {
+    text-align: center;
+    font-size: 65px;
+    color: whitesmoke;
+    margin: 0 0 0 120px;
+}
+#header-center a {
+    outline: 0; /* no doted lines!!! */
+}
+#header-center a i {
+    text-align: center;
+    font-size: 65px;
+    color: whitesmoke;
+    opacity: .8;
+    margin: 0 0 0 120px;
+}
+#header-center a i:hover {
+    color: #d03238;
+}
+/***********   MEDIA QUERIES  **************/
+@media  (max-width:290px) {
+    #fullSlide {
+        margin-bottom: 0;
+    }
+    #header-right {
+        position: relative;
+        float:left;
+    }
+    #header-right .nav {
+        float: left;
+        margin-top: 120px;
+        margin-bottom: -205px;
+        text-align: left;
+        padding-right: 5px;
+        width: 100%;
+    }
+    #header-right .nav > li {
+        margin-left: 0;
+    }
+    #header-right .nav li a {
+        margin-left: 0;
+        padding: 7px;
+    }
+    #header-center {
+        right: 21%;
+    }
+    #header-center h1 {
+        font-size: 70px !important;
+    }
+    #header-center a i {
+        font-size: 45px;
+        margin: 0 0 0 70px;
+    }
+}
+@media  (min-width:290px) and (max-width: 480px) {
+    /* (min-width:320px) and smartphones, iPhone, portrait 480x320 phones */
+    #fullSlide {
+        margin-bottom: 0;
+    }
+    #header-right {
+        position: relative;
+        float:left;
+    }
+    #header-right .nav {
+        float: left;
+        margin-top: 80px;
+        margin-bottom: -145px;
+        text-align: left;
+        padding-right: 5px;
+        width: 140%;
+    }
+    #header-right .nav > li {
+        margin-left: 0;
+    }
+    #header-right .nav li a {
+        margin-left: 0;
+        padding: 7px;
+    }
+    #header-center {
+        right: 28%;
+    }
+    #header-center h1 {
+        font-size: 80px !important;
+    }
+    #header-center a i {
+        font-size: 45px;
+        margin: 0 0 0 85px;
+    }
+}
+@media (min-width:481px) and (max-width: 768px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    #header-right {
+        position: relative;
+        float:left;
+    }
+    #header-right .nav {
+        float: left;
+        margin-top: 80px;
+        margin-bottom: -145px;
+        text-align: left;
+        padding-right: 5px;
+        width: 140%;
+    }
+    #header-right .nav > li {
+        margin-left: 0;
+    }
+    #header-right .nav li a {
+        margin-left: 0;
+        padding: 11px;
+    }
+    #header-center h1 {
+        font-size: 90px !important;
+    }
+    #header-center a i {
+        font-size: 45px;
+        margin: 0 0 0 95px;
+    }
+}
+/************  END HEADER   ************/
 
-footer .col-lg-12 {
+
+
+
+
+
+
+
+
+
+
+/************  PORTFOLIO  ************/
+#isotope {
+    background-color: #E0E0E0;
+}
+#isotope .portfolioContainer img {
+    width: 500px;
+}
+#isotope .img-portfolio {
+    margin: 7px auto;
     text-align: center;
 }
-footer a img {
-    width: 170px;
-    height: 25px;
+#isotope .img-portfolio:last-child {
+    margin-bottom: 30px;
 }
 
-
-
-/*
-**********   MEDIA QUERIES - Hexagons  *************
-*/
-/* http://csshexagon.com/ */ /* HEXAGON */
 /* http://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */ /*MEDIA QUERIES*/
+@media (max-width: 560px) {
+    /* (min-width:320px) and smartphones, iPhone, portrait 480x320 phones */
+    .hidden-img img {
+        width: 300px;
+        margin: auto;
+    }
+}
+@media (min-width:560px) and (max-width: 680px) {
+    .hidden-img img {
+        width: 400px;
+        margin: auto;
+    }
+}
+@media (min-width:770px) and (max-width: 890px) {
+    #isotope .portfolioContainer img {
+        width: 300px;
+    }
+}
+@media (min-width:890px) and (max-width: 1035px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    #isotope .portfolioContainer img {
+        width: 300px;
+    }
+}
+@media (min-width:1035px) and (max-width: 1209px) {
+    /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
+    #isotope .portfolioContainer img {
+        width: 350px;
+    }
+}
+@media (min-width:1210px) and (max-width: 1435px) {
+    /* big landscape tablets, laptops, and desktops, >=13' */
+    #isotope .portfolioContainer img {
+        width: 400px;
+    }
+}
+/************  END CONTACT FORM  ************/
 
-@media (max-width: 480px) { /* (min-width:320px) and smartphones, iPhone, portrait 480x320 phones */
-    .nav>li>a>img {
-        display: none;
-    }
-    .nav > li > a {
-        display: block;
-    }
-    .nav > li > a {
-        margin-top: -35px;
-    }
-    .navbar-nav {
-        margin: 0;
-        margin-bottom: -18px;
-    }
-    .navbar-nav {
-        padding-top: 15px;
-    }
-    .specials::after {
-        display: none;
-    }
+
+
+
+
+
+
+
+
+
+
+/************  CONTACT FORM  ************/
+#contact-form {
+    margin: -20px 0 0 0;
+    padding: 30px;
+    color: #C9C9C9;
+    font-size: 13px;
+    line-height: 1.8em;
+    background-color: #353535;
+}
+#contact-form #github {
+    opacity: 0.7;
+}
+#contact-form #github:hover {
+    opacity: 0.4;
+}
+#contact-form #github img {
+    width: 50px ;
+}
+#contact-form h1 a:hover {
+    opacity: 0.7;
+}
+#contact-form article {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+#contact-form article a:hover {
+    color: red!important;
 }
 
 
+#contact-form #contact-info {
+    margin: 0 0 50px 0;
+}
+#contact-form #contact-info .contact {
+    margin-top: 10px;
+}
+#contact-form #contact-info .contact a:hover {
+    color: red;
+}
+#contact-form #contact-info .contact i {
+    float:left;
+    margin: 5px 10px;
+}
+#contact-form #contact-info .contact p {
+    margin: 0 0 -7px 0;
+    font-size: .8em;
+}
 
 
+/***********  MEDIA QUERIES  *************
+/* http://csshexagon.com/ */ /* HEXAGON */
+@media (max-width: 480px) {
+    /* (min-width:320px) and smartphones, iPhone, portrait 480x320 phones */
 
-@media (min-width:481px) and (max-width: 768px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
     #contact-form img {
         width: 50px;
         margin-top: 16px;
     }
-    .navbar-nav {
-        margin: 0!important;
-    }
 }
 
-@media (min-width:769px) and (max-width: 991px) { /* (min-width:768px) */
+@media (min-width:769px) and (max-width: 991px) {
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-    #contact-form img {
-        width: 50px;
-        margin-top: 14px;
-    }
-
-    #contact-form .hexagon {
-        position: relative;
-        width: 130px;
-        height: 75.06px;
-        margin: 37.53px 0;
-        background-image: url(../img/hexagons/tomek.jpg);
-        background-size: auto 138.5641px;
-        background-position: center;
-        box-shadow: 0 0 20px rgba(0,0,0,0.6);
-        border-left: solid 5px #333333;
-        border-right: solid 5px #333333;
-    }
-    #contact-form .hexTop,
-    #contact-form .hexBottom {
-        position: absolute;
-        z-index: 1;
-        width: 91.92px;
-        height: 91.92px;
-        overflow: hidden;
-        -webkit-transform: scaleY(0.5774) rotate(-45deg);
-        -ms-transform: scaleY(0.5774) rotate(-45deg);
-        transform: scaleY(0.5774) rotate(-45deg);
-        background: inherit;
-        left: 14.04px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.6);
-    }
-
-    /*counter transform the bg image on the caps*/
-    #contact-form .hexTop:after,
-    #contact-form .hexBottom:after {
-        content: "";
-        position: absolute;
-        width: 120.0000px;
-        height: 69.2820323027551px;
-        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
-        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
-        transform:          rotate(45deg) scaleY(1.7321) translateY(-34.6410px);
-        -webkit-transform-origin: 0 0;
-        -ms-transform-origin: 0 0;
-        transform-origin: 0 0;
-        background: inherit;
-    }
-
-    #contact-form .hexTop {
-        top: -45.9619px;
-        border-top: solid 7.0711px #333333;
-        border-right: solid 7.0711px #333333;
-    }
-
-    #contact-form .hexTop:after {
-        background-position: center top;
-    }
-
-    #contact-form  .hexBottom {
-        bottom: -45.9619px;
-        border-bottom: solid 7.0711px #333333;
-        border-left: solid 7.0711px #333333;
-    }
-
-    #contact-form .hexBottom:after {
-        background-position: center bottom;
-    }
-
-    #contact-form  .hexagon:after {
-        content: "";
-        position: absolute;
-        top: 2.8868px;
-        left: 0;
-        width: 120.0000px;
-        height: 69.2820px;
-        z-index: 2;
-        background: inherit;
-    }
-}
-
-
-
-
-
-
-
-
-@media (min-width:992px) and (max-width: 1199px) { /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
     #contact-form img {
         width: 50px;
         margin-top: 14px;
@@ -417,14 +414,13 @@ footer a img {
         width: 200px;
         height: 115.47px;
         margin: 57.74px 0;
-        background-image: url(../img/hexagons/tomek.jpg);
+        background-image: url(../img/tomek.jpg);
         background-size: auto 219.3931px;
         background-position: center;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
         border-left: solid 5px #333333;
         border-right: solid 5px #333333;
     }
-
     #contact-form .hexTop,
     #contact-form .hexBottom {
         position: absolute;
@@ -439,7 +435,6 @@ footer a img {
         left: 24.29px;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
     }
-
     /*counter transform the bg image on the caps*/
     #contact-form .hexTop:after,
     #contact-form .hexBottom:after {
@@ -455,27 +450,22 @@ footer a img {
         transform-origin: 0 0;
         background: inherit;
     }
-
     #contact-form .hexTop {
         top: -70.7107px;
         border-top: solid 7.0711px #333333;
         border-right: solid 7.0711px #333333;
     }
-
     #contact-form .hexTop:after {
         background-position: center top;
     }
-
     #contact-form .hexBottom {
         bottom: -70.7107px;
         border-bottom: solid 7.0711px #333333;
         border-left: solid 7.0711px #333333;
     }
-
     #contact-form .hexBottom:after {
         background-position: center bottom;
     }
-
     #contact-form .hexagon:after {
         content: "";
         position: absolute;
@@ -489,10 +479,84 @@ footer a img {
 }
 
 
+@media (min-width:992px) and (max-width: 1199px) {
+    /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
+    #contact-form img {
+        width: 50px;
+        margin-top: 14px;
+    }
+    #contact-form .hexagon {
+        position: relative;
+        width: 200px;
+        height: 115.47px;
+        margin: 57.74px 0;
+        background-image: url(../img/tomek.jpg);
+        background-size: auto 219.3931px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        border-left: solid 5px #333333;
+        border-right: solid 5px #333333;
+    }
+    #contact-form .hexTop,
+    #contact-form .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 141.42px;
+        height: 141.42px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 24.29px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+    /*counter transform the bg image on the caps*/
+    #contact-form .hexTop:after,
+    #contact-form .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 190.0000px;
+        height: 109.69655114602891px;
+        -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+        -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+        transform:          rotate(45deg) scaleY(1.7321) translateY(-54.8483px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+    #contact-form .hexTop {
+        top: -70.7107px;
+        border-top: solid 7.0711px #333333;
+        border-right: solid 7.0711px #333333;
+    }
+    #contact-form .hexTop:after {
+        background-position: center top;
+    }
+    #contact-form .hexBottom {
+        bottom: -70.7107px;
+        border-bottom: solid 7.0711px #333333;
+        border-left: solid 7.0711px #333333;
+    }
+    #contact-form .hexBottom:after {
+        background-position: center bottom;
+    }
+    #contact-form .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 2.8868px;
+        left: 0;
+        width: 190.0000px;
+        height: 109.6966px;
+        z-index: 2;
+        background: inherit;
+    }
+}
 
 
-
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
     #contact-form img {
         width: 50px;
         margin-top: 14px;
@@ -502,14 +566,13 @@ footer a img {
         width: 200px;
         height: 115.47px;
         margin: 57.74px 0;
-        background-image: url(../img/hexagons/tomek.jpg);
+        background-image: url(../img/tomek.jpg);
         background-size: auto 219.3931px;
         background-position: center;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
         border-left: solid 5px #333333;
         border-right: solid 5px #333333;
     }
-
     #contact-form .hexTop,
     #contact-form .hexBottom {
         position: absolute;
@@ -524,7 +587,6 @@ footer a img {
         left: 24.29px;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
     }
-
     /*counter transform the bg image on the caps*/
     #contact-form .hexTop:after,
     #contact-form .hexBottom:after {
@@ -540,27 +602,22 @@ footer a img {
         transform-origin: 0 0;
         background: inherit;
     }
-
     #contact-form .hexTop {
         top: -70.7107px;
         border-top: solid 7.0711px #333333;
         border-right: solid 7.0711px #333333;
     }
-
     #contact-form .hexTop:after {
         background-position: center top;
     }
-
     #contact-form .hexBottom {
         bottom: -70.7107px;
         border-bottom: solid 7.0711px #333333;
         border-left: solid 7.0711px #333333;
     }
-
     #contact-form .hexBottom:after {
         background-position: center bottom;
     }
-
     #contact-form .hexagon:after {
         content: "";
         position: absolute;
@@ -574,14 +631,8 @@ footer a img {
 }
 
 
-
-
-
-
-
-@media (min-width:1200px) { /* hi-res laptops and desktops */
-    /************   Hexagon   ************/
-
+@media (min-width:1200px) {
+    /* hi-res laptops and desktops */
     #contact-form .hexagon {
         position: relative;
         width: 300px;
@@ -594,7 +645,6 @@ footer a img {
         border-left: solid 5px #333333;
         border-right: solid 5px #333333;
     }
-
     #contact-form .hexTop,
     #contact-form .hexBottom {
         position: absolute;
@@ -609,7 +659,6 @@ footer a img {
         left: 38.93px;
         box-shadow: 0 0 20px rgba(0,0,0,0.6);
     }
-
     /*counter transform the bg image on the caps*/
     #contact-form .hexTop:after,
     #contact-form .hexBottom:after {
@@ -625,27 +674,22 @@ footer a img {
         transform-origin: 0 0;
         background: inherit;
     }
-
     #contact-form .hexTop {
         top: -106.0660px;
         border-top: solid 7.0711px #333333;
         border-right: solid 7.0711px #333333;
     }
-
     #contact-form .hexTop:after {
         background-position: center top;
     }
-
     #contact-form .hexBottom {
         bottom: -106.0660px;
         border-bottom: solid 7.0711px #333333;
         border-left: solid 7.0711px #333333;
     }
-
     #contact-form .hexBottom:after {
         background-position: center bottom;
     }
-
     #contact-form .hexagon:after {
         content: "";
         position: absolute;
@@ -657,7 +701,75 @@ footer a img {
         background: inherit;
     }
 }
+/************  END CONTACT FORM  ************/
 
+
+
+
+
+
+
+
+
+
+
+
+
+/************   FOOTER   ************/
+/*Footer*/
+footer {
+    margin: -20px 0 0 0;
+    padding: 30px;
+    color: #C9C9C9;
+    font-size: 13px;
+    line-height: 1.8em;
+    background-color: #222;
+}
+footer .col-lg-12 {
+    text-align: center;
+}
+footer p {
+    margin: 17px 0 10px;
+    color: #fff;
+    font-size: 1.4em;
+}
+footer span {
+    color: #FFF;
+    font-size: 14px;
+}
+
+footer a img {
+    width: 170px;
+    height: 25px;
+}
+/************  END FOOTER   ************/
+
+
+
+
+
+
+
+
+
+
+/***********   MEDIA QUERIES  **************/
+/* http://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile */ /*MEDIA QUERIES*/
+@media (max-width: 480px) {
+    /* (min-width:320px) and smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width:481px) and (max-width: 768px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (min-width:769px) and (max-width: 960px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+@media (min-width:961px) and (max-width: 1199px) {
+    /* min-width:961px tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width:1200px) {
+    /* big landscape tablets, laptops, and desktops, >=13' */
+}
 
 
 

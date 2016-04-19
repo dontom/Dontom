@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #353535;">
+<html lang="en">
 
 <head>
 
@@ -46,7 +46,7 @@
     <!--HEADER LEFT-->
     <div id="header-left">
         <h3>Tomek <span>Marcinczyk</span></h3>
-        <h5>freelancer | frontend developer | growth hacker</h5>
+        <h5>freelancer | web developer | growth hacker</h5>
     </div>
 
     <!--HEADER RIGHT-->
@@ -69,6 +69,7 @@
     <!--WITAJ-->
     <div id="header-center">
         <h1>Witaj</h1>
+        <a href="#isotope"><i class="fa fa-angle-double-down"></i></a>
     </div>
 
     <!--D3-->
@@ -78,7 +79,7 @@
     <!--PORTFOLIO-->
     <div id="isotope" class="container-fluid">
         <div id="technology-filter"><h2>Portfolio</h2><br></div>
-        <div class="portfolioFilter col-md-3">
+        <div class="portfolioFilter col-md-3 col-sm-3 hidden-xs">
             <!--<h3>Technologie:</h3>-->
             <a href="#" data-filter="*">Wszystkie</a>
             <a href="#" data-filter=".goldcosmetics">Gold Cosmetics</a>
@@ -97,7 +98,7 @@
             <!--<a href="#" data-filter=".mysql">MySQL</a>-->
         </div>
 
-        <div class="portfolioContainer col-md-9">
+        <div class="portfolioContainer col-md-9 col-sm-9 hidden-xs">
 
             <div class="goldcosmetics">
                 <a href="http://www.goldcosmetics.pl/" target="_blank"><img src="img/portfolio/goldcosmetics.jpg" alt="Gold Cosmetics"></a>
@@ -116,11 +117,31 @@
             </div>
 
         </div>
+
+        <div class="hidden-img hidden-lg hidden-md hidden-sm col-xs-12">
+
+            <div class="img-portfolio">
+                <a href="http://www.goldcosmetics.pl/" target="_blank"><img src="img/portfolio/goldcosmetics.jpg" alt="Gold Cosmetics"></a>
+            </div>
+
+            <div class="img-portfolio">
+                <a href="http://enactuspw.pl/" target="_blank"><img src="img/portfolio/enactuspw.jpg" alt="Enactus PW"></a>
+            </div>
+
+            <div class="img-portfolio">
+                <a href="http://invme.net/" target="_blank"><img src="img/portfolio/invme.jpg" alt="Enactus PW"></a>
+            </div>
+
+            <div class="img-portfolio">
+                <a href="http://dontom.pl/"><img src="img/portfolio/dontom.jpg" alt="Enactus PW"></a>
+            </div>
+
+        </div>
     </div>
 
 
 
-    <!--ABOUT ME-->
+    <!--CONTACT FORM-->
     <!-- Container fluid -->
     <div id="contact-form" class="container-fluid">
         <!-- Page Content -->
@@ -148,26 +169,31 @@
 
 
                     <div id="contact-info" class="row">
-                        <h3>Kontakt:</h3>
-                        <div class="contact col-md-4">
-                            <i class="fa fa-envelope-o fa-2x"></i>
-                            <p>E-mail</p>
-                            <a href="mailto:marcinczykt@gmail.com">marcinczykt@gmail.com</a>
-                        </div>
 
-                        <div class="contact col-md-8">
+                        <h3>Kontakt:</h3>
+
+                        <div class="contact col-md-4 col-sm-4 col-xs-12">
                             <i class="fa fa-facebook fa-2x"></i>
                             <p>Facebook</p>
                             <a href="https://www.facebook.com/">Fanpage</a>
                         </div>
 
-                        <div class="contact col-md-4">
+
+                        <div class="contact col-md-8 col-sm-8 col-xs-12">
+                            <i class="fa fa-envelope-o fa-2x"></i>
+                            <p>E-mail</p>
+                            <a href="mailto:marcinczykt@gmail.com">marcinczykt@gmail.com</a>
+                        </div>
+
+
+
+                        <div class="contact col-md-4 col-sm-4 col-xs-12">
                             <i class="fa fa-github fa-2x"></i>
                             <p>Git Hub</p>
                             <a href="https://github.com/dontom">Dontom repository</a>
                         </div>
 
-                        <div class="contact col-md-8">
+                        <div class="contact col-md-8 col-sm-8 col-xs-12">
                             <i class="fa fa-linkedin fa-2x"></i>
                             <p>Linkedin</p>
                             <a href="https://www.linkedin.com/in/tomasz-marci%C5%84czyk-025253a4?trk=nav_responsive_tab_profile_pic">My profile</a>
@@ -207,7 +233,9 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <p>&copy; All rights reserved | Made by: </p><h1><a href="http://winalife.pl/" target="_blank"><img src="img/winalife.png"></a></h1>
+                <p>&copy; All rights reserved | Made by: </p>
+                <h1><a href="http://winalife.pl/" target="_blank">
+                    <img src="img/winalife.png"></a></h1>
             </div>
         </div>
         <!-- /.row -->
